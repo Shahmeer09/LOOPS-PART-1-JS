@@ -345,3 +345,17 @@
 
 //   // Output the product of odd integers
 //  console.log("Product of odd integers from 1 to 7: " + product);
+
+// ANOTHER QUESTION ;
+
+
+//  let students = ["Ali", "Abdullah", "Talha", "Ahsan"]
+//  let scores = [58, 73, 89, 90]
+
+//  let table = "<table border='1'><tr><th>Student Name</th><th>Score</th></tr>"
+
+//  for ( i = 0; i < students.length; i++){
+//      table += `<tr><td> ${[students[i]]} </td><td> ${[scores[i]]}</td> </tr>`
+//  }
+//  table += '</table>'
+//  document.write(table)

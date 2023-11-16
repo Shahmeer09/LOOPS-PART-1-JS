@@ -434,3 +434,13 @@
 //     }
 // }
 // console.log(`The smallest number in the Array is ${[smallestNum]}`);
+
+
+
+// ANOTHER ONE ;
+
+
+// let A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
+// for (let i = 0; i < A.length; i++){
+//     console.log(A[i])
+// }

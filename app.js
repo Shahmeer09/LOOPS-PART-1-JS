@@ -329,3 +329,19 @@
 //     }
 //     document.write(line + '<br>');
 // }
+
+// PRACTICE ;
+
+
+ // Initialize the product variable with 1
+//  let product = 1;
+
+//  // Iterate from 1 to 7 and multiply odd numbers to the product
+//  for (let i = 1; i <= 7; i++) {
+//      if (i % 2 !== 0) {
+//          product *= i;
+//      }
+//  }
+
+//   // Output the product of odd integers
+//  console.log("Product of odd integers from 1 to 7: " + product);

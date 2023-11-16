@@ -437,10 +437,17 @@
 
 
 
-// ANOTHER ONE ;
+
 
 
 // let A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
 // for (let i = 0; i < A.length; i++){
 //     console.log(A[i])
 // }
+
+
+// ANOTHER ONE ;
+
+// for (let i = 1; i <= 10; i++){
+    //     console.log(i);
+    // }

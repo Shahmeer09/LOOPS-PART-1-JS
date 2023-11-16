@@ -389,3 +389,33 @@
 // for (let i = 2; i <= 20; i += 2){
 //     document.write(`${[i]}k, `)
 // }
+
+
+
+// ANOTHER ONE ;
+
+
+// Given array
+//  var scores = [12, 45, 3, 22, 34, 50];
+
+//  // Ask the user for the stop value
+//  var stopValue = parseInt(prompt("Enter the stop value:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(stopValue)) {
+//      // Iterate through the array and print numbers until the stop value is reached
+//      var output = [];
+//      for (var i = 0; i < scores.length; i++) {
+//         if (scores[i] <= stopValue) {
+//             output.push(scores[i]);
+//    } else {
+//             break;
+//         }
+//    }
+    
+//    // Print the output
+//     console.log(output);
+//  } else {
+//      // Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }

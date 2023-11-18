@@ -493,7 +493,7 @@
                 },
                 {
                     name: "Project B",
-                    technologies: ["Python", "Django", "PostgreSQL"],
+                    technologies: ["Python", "Django", ["new" , ["PostgreSQL"]]],
                 },
             ],
         },
@@ -505,4 +505,4 @@
 
 
     console.log(complexObject.work.company.location.country);
-    console.log(complexObject.work.company.location);
+    console.log(complexObject.work.projects[1].technologies[2][1][0]);

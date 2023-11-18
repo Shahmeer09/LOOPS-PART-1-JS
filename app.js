@@ -508,4 +508,20 @@
     // console.log(complexObject.work.projects[1].technologies[2][1][0]);
 
 
+
     
+
+    // Ask the user for input
+//  let num = parseFloat(prompt("Enter a number:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(num)) {
+//    //   Repeat and print the value of num while num is positive
+//      while (num > 0) {
+//          console.log(num);
+//          num -= 0.5;
+//      }
+//  } else {
+//     //  Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }

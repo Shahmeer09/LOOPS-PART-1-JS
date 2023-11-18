@@ -451,3 +451,13 @@
 // for (let i = 1; i <= 10; i++){
     //     console.log(i);
     // }
+
+    // let A = [24, 53, 78, 91, 12]
+// let smallestNum = A[0]
+
+// for (let i = 1; i < A.length; i++){
+//     if (A[i] < smallestNum){
+//         smallestNum = A[i]
+//     }
+// }
+// console.log(`The smallest number in the Array is ${[smallestNum]}`);

@@ -452,12 +452,11 @@
     //     console.log(i);
     // }
 
-    // let A = [24, 53, 78, 91, 12]
-// let smallestNum = A[0]
+    const user = {
+        name: 'shahmeer',
+        age: '18',
+        email: 'shahmeerrizwan921@gmail.com',
+        girlfriend:'mere pe tou hai ni'
+    }
 
-// for (let i = 1; i < A.length; i++){
-//     if (A[i] < smallestNum){
-//         smallestNum = A[i]
-//     }
-// }
-// console.log(`The smallest number in the Array is ${[smallestNum]}`);
+    console.log(user.girlfriend);

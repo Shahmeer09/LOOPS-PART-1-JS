@@ -525,3 +525,32 @@
 //     //  Display an error message if the input is not a valid number
 //      console.log("Invalid input. Please enter a valid number.");
 //  }
+
+
+// EVENTS ; 
+
+// let form = document.getElementById("form")
+// let input = document.getElementById("inp")
+
+// form.addEventListener("submit",function(event){
+//     event.preventDefault();
+//     console.log(input.value);
+//     input.value= ""
+// } )
+
+
+
+// let image = document.getElementById("img");
+// image.addEventListener ("mouseover",function(){
+//     image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcBcfLBk6DAj-4sdPMoPXPkZZ-_J15-LJT6w&usqp=CAU"
+
+// })
+
+// let img = document.getElementById("img");
+// image.addEventListener ("mouseout",function(){
+//     image.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLTClnj-XEF3qqaXMDwbNM4RU40rBVn1lkQ&usqp=CAU"
+
+// })
+
+
+

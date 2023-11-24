@@ -34,15 +34,12 @@
 //     console.log(A[i])
 // }
 
-
 //question 5
 
 // let fruits = ['apple', 'banana', 'mango', 'orange', 'strawberry']
 // for (let i = 0; i < fruits.length; i++){
 //     console.log(fruits[i]);
 // }
-
-
 
 //question 7
 
@@ -71,10 +68,6 @@
 //     document.write(`${[i]}k, `)
 // }
 
-
-
-
-
 //question 9
 
 // let A = [24, 53, 78, 91, 12]
@@ -86,7 +79,6 @@
 //     }
 // }
 // console.log(`The Largest number in the Array is ${[largestNum]}`);
-
 
 //question 10
 
@@ -137,8 +129,7 @@
 //  table += '</table>'
 //  document.write(table)
 
-
-//question 14 
+//question 14
 
 // Given array
 //  var scores = [12, 45, 3, 22, 34, 50];
@@ -157,14 +148,13 @@
 //             break;
 //         }
 //    }
-    
+
 //    // Print the output
 //     console.log(output);
 //  } else {
 //      // Display an error message if the input is not a valid number
 //      console.log("Invalid input. Please enter a valid number.");
 //  }
-
 
 //question 15
 
@@ -195,7 +185,6 @@
 //      console.log("Invalid input. Please enter a valid number.");
 //  }
 
-
 //question 17
 
 // Using a for loop to iterate from 0 to 20
@@ -208,10 +197,9 @@
 //      }
 //  }
 
-
 //question 18
 
- // Initialize the product variable with 1
+// Initialize the product variable with 1
 //  let product = 1;
 
 //  // Iterate from 1 to 7 and multiply odd numbers to the product
@@ -223,7 +211,6 @@
 
 //   // Output the product of odd integers
 //  console.log("Product of odd integers from 1 to 7: " + product);
-
 
 //question 19
 
@@ -246,7 +233,6 @@
 //      // Display an error message if the input is not a valid number
 //      console.log("Invalid input. Please enter a valid positive number.");
 //  }
-
 
 // question 20
 
@@ -283,8 +269,8 @@
 //     document.write(line + '<br>');
 // }
 
- // usama
- // Create and display pattern c
+// usama
+// Create and display pattern c
 // for (let i = numLines; i > 0; i--) {
 //     let line = '';
 //     for (let j = 0; j < i; j++) {
@@ -332,8 +318,7 @@
 
 // PRACTICE ;
 
-
- // Initialize the product variable with 1
+// Initialize the product variable with 1
 //  let product = 1;
 
 //  // Iterate from 1 to 7 and multiply odd numbers to the product
@@ -348,7 +333,6 @@
 
 // ANOTHER QUESTION ;
 
-
 //  let students = ["Ali", "Abdullah", "Talha", "Ahsan"]
 //  let scores = [58, 73, 89, 90]
 
@@ -360,10 +344,7 @@
 //  table += '</table>'
 //  document.write(table)
 
-
 // ANOTHER QUESTION ;
-
-
 
 // document.write(`<h2>Counting: </h2>`)
 // for (i = 1; i <= 15; i++){
@@ -390,10 +371,7 @@
 //     document.write(`${[i]}k, `)
 // }
 
-
-
 // ANOTHER ONE ;
-
 
 // Given array
 //  var scores = [12, 45, 3, 22, 34, 50];
@@ -412,7 +390,7 @@
 //             break;
 //         }
 //    }
-    
+
 //    // Print the output
 //     console.log(output);
 //  } else {
@@ -420,10 +398,7 @@
 //      console.log("Invalid input. Please enter a valid number.");
 //  }
 
-
-
 // ANOTHER QUES ;
-
 
 // let A = [24, 53, 78, 91, 12]
 // let smallestNum = A[0]
@@ -435,83 +410,72 @@
 // }
 // console.log(`The smallest number in the Array is ${[smallestNum]}`);
 
-
-
-
-
-
 // let A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
 // for (let i = 0; i < A.length; i++){
 //     console.log(A[i])
 // }
 
-
 // ANOTHER ONE ;
 
 // for (let i = 1; i <= 10; i++){
-    //     console.log(i);
-    // }
+//     console.log(i);
+// }
 
-    // const user = {
-    //     name: 'shahmeer',
-    //     age: '18',
-    //     email: 'shahmeerrizwan921@gmail.com',
-    //     girlfriend:'mere pe tou hai ni'
-    // }
+// const user = {
+//     name: 'shahmeer',
+//     age: '18',
+//     email: 'shahmeerrizwan921@gmail.com',
+//     girlfriend:'mere pe tou hai ni'
+// }
 
-    // console.log(user.girlfriend);
+// console.log(user.girlfriend);
 
-    // let complexObject = {
-    //     person: {
-    //         name: {
-    //             first: "John",
-    //             last: "Doe",
-    //         },
-    //         age: 30,
-    //         address: {
-    //             street: {
-    //                 number: 123,
-    //                 name: "Nested Street",
-    //             },
-    //             city: "Nested City",
-    //             country: "Nested Country",
-    //         },
-    //     },
-    //     work: {
-    //         company: {
-    //             name: "TechCorp",
-    //             location: {
-    //                 city: "TechCity",
-    //                 country: "TechCountry",
-    //             },
-    //         },
-    //         position: "Senior Developer",
-    //         projects: [
-    //             {
-    //                 name: "Project A",
-    //                 technologies: ["JavaScript", "React", "Node.js"],
-    //             },
-    //             {
-    //                 name: "Project B",
-    //                 technologies: ["Python", "Django", ["new" , ["PostgreSQL"]]],
-    //             },
-    //         ],
-    //     },
-    //     hobbies: {
-    //         indoor: ["Reading", "Chess"],
-    //         outdoor: ["Hiking", "Cycling"],
-    //     },
-    // };
+// let complexObject = {
+//     person: {
+//         name: {
+//             first: "John",
+//             last: "Doe",
+//         },
+//         age: 30,
+//         address: {
+//             street: {
+//                 number: 123,
+//                 name: "Nested Street",
+//             },
+//             city: "Nested City",
+//             country: "Nested Country",
+//         },
+//     },
+//     work: {
+//         company: {
+//             name: "TechCorp",
+//             location: {
+//                 city: "TechCity",
+//                 country: "TechCountry",
+//             },
+//         },
+//         position: "Senior Developer",
+//         projects: [
+//             {
+//                 name: "Project A",
+//                 technologies: ["JavaScript", "React", "Node.js"],
+//             },
+//             {
+//                 name: "Project B",
+//                 technologies: ["Python", "Django", ["new" , ["PostgreSQL"]]],
+//             },
+//         ],
+//     },
+//     hobbies: {
+//         indoor: ["Reading", "Chess"],
+//         outdoor: ["Hiking", "Cycling"],
+//     },
+// };
 
+// console.log(complexObject.work.company.location.country);
+// console.log(complexObject.work.projects[1].technologies[2][1][0]);
 
-    // console.log(complexObject.work.company.location.country);
-    // console.log(complexObject.work.projects[1].technologies[2][1][0]);
-
-
-
-    
-
-    // Ask the user for input
+// Ask the user for input
 //  let num = parseFloat(prompt("Enter a number:"));
 
 //  // Check if the input is a valid number
@@ -526,19 +490,21 @@
 //      console.log("Invalid input. Please enter a valid number.");
 //  }
 
+// EVENTS ;
 
-// EVENTS ; 
+// FORM ASSIGNMENT ;
 
 // let form = document.getElementById("form")
 // let input = document.getElementById("inp")
 
 // form.addEventListener("submit",function(event){
+//     form.innerHTML = ('')
 //     event.preventDefault();
 //     console.log(input.value);
 //     input.value= ""
 // } )
 
-
+// BULB ASSIGNMENT ;
 
 // let image = document.getElementById("img");
 // image.addEventListener ("mouseover",function(){
@@ -552,5 +518,36 @@
 
 // })
 
+// ANOTHER ASSIGMNET ;
 
+// let btn =  document.getElementById ('btn');
+// btn.addEventListener('mouseover', function run(){
 
+// }
+
+// )
+
+function hide() {
+  let btn = document.getElementById("btn");
+  let para = document.getElementById("para");
+  
+ 
+
+  btn.addEventListener("click", function run() {
+      if (para.style.display != "none") {
+        console.log("if");
+      para.style.display = "none";
+      btn.innerHTML = 'SHOW'
+      
+    } else {
+        console.log("else");
+      para.style.display = "block";
+      btn.innerHTML = "Hide"
+    }
+    // btn.value = "Show"
+    
+    // para.style.display = "none";
+  });
+}
+
+hide();

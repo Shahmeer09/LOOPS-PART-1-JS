@@ -520,34 +520,30 @@
 
 // ANOTHER ASSIGMNET ;
 
-// let btn =  document.getElementById ('btn');
-// btn.addEventListener('mouseover', function run(){
 
-// }
+// HIDE/SHOW PARAGRAPH ;
 
-// )
-
-function hide() {
-  let btn = document.getElementById("btn");
-  let para = document.getElementById("para");
+// function hide() {
+//   let btn = document.getElementById("btn");
+//   let para = document.getElementById("para");
   
  
 
-  btn.addEventListener("click", function run() {
-      if (para.style.display != "none") {
-        console.log("if");
-      para.style.display = "none";
-      btn.innerHTML = 'SHOW'
+//   btn.addEventListener("click", function run() {
+//       if (para.style.display != "none") {
+//         console.log("if");
+//       para.style.display = "none";
+//       btn.innerHTML = 'SHOW'
       
-    } else {
-        console.log("else");
-      para.style.display = "block";
-      btn.innerHTML = "Hide"
-    }
-    // btn.value = "Show"
+//     } else {
+//         console.log("else");
+//       para.style.display = "block";
+//       btn.innerHTML = "Hide"
+//     }
     
-    // para.style.display = "none";
-  });
-}
+//   });
+// }
 
-hide();
+// hide();
+
+

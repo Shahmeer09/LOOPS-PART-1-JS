@@ -295,7 +295,7 @@
 //     document.write(line + '<br>');
 //     console.log(numLines);
 // }
-// document.write('<br>');
+// document.write('<>');
 
 // Create and display pattern b
 // for (let i = 1; i <= numLines; i++) {
@@ -568,3 +568,18 @@
 // for(let i = 0; i < marks.length; i++){
 //   console.log(marks[i]);
 // }
+
+
+// CREATE AN ARRAY STUDENT NAME AND MARKS :
+
+ 
+//  let studentNames = ['SHAHMEER', 'ABDULLAH', 'TALHA', 'ADNAN']; // Create an array with student names
+//  let studentMarks = [85, 92, 78, 95];  // Create an array with student marks
+//    for (let i = 0; i < studentNames.length; i++) {    // Display student information using a loop
+//    let name = studentNames[i];
+//    let marks = studentMarks[i];
+//    console.log(' CONGRATULATIONS ' + name + ', YOU  GOT ' + marks , ' MARKS OUT OF 100 ' );
+   
+//    let main = document.getElementById('main');
+//    main.innerHTML += ' CONGRATULATIONS ' + name +  ', YOU  GOT '  + marks + ' MARKS OUT OF 100 '+ '<br>';
+//    }

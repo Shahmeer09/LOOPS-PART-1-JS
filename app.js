@@ -558,3 +558,13 @@
 // console.log(marks_of_class_10[5]);
 // marks_of_class_10[2] = 69 // array change ;
 // console.log(marks_of_class_10);
+
+
+
+// ASSIGNMNENT ;
+
+
+// let marks = [23, 2, 35, 24, "this is the marks of class 12 "];
+// for(let i = 0; i < marks.length; i++){
+//   console.log(marks[i]);
+// }

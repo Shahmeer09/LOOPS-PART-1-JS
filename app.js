@@ -547,3 +547,14 @@
 // hide();
 
 
+// 25-11-2023 (ARRAYS);
+
+// let marks_of_class_10 = [12,13,14,15,16,17]
+
+// console.log(marks_of_class_10[1]);
+// console.log(marks_of_class_10[2]);
+// console.log(marks_of_class_10[3]);
+// console.log(marks_of_class_10[4]);
+// console.log(marks_of_class_10[5]);
+// marks_of_class_10[2] = 69 // array change ;
+// console.log(marks_of_class_10);

@@ -570,7 +570,7 @@
 // }
 
 
-// CREATE AN ARRAY STUDENT NAME AND MARKS :
+// CREATE AN ARRAY STUDENT NAME WITH MARKS :
 
  
 //  let studentNames = ['SHAHMEER', 'ABDULLAH', 'TALHA', 'ADNAN']; // Create an array with student names
@@ -583,3 +583,19 @@
 //    let main = document.getElementById('main');
 //    main.innerHTML += ' CONGRATULATIONS ' + name +  ', YOU  GOT '  + marks + ' MARKS OUT OF 100 '+ '<br>';
 //    }
+
+
+// function
+
+
+// rishta(20000)
+// .then(function (res){
+//     console.log(res);
+// })
+// .catch(function(err){
+//     console.log(err);
+// })
+
+
+
+

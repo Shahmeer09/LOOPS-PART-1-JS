@@ -599,3 +599,39 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+// FUNCTIONS PRACTICE :
+
+
+const hello = ()=>{
+  console.log("hello dude i am fine");
+}
+hello ()
+
+let a = 1;
+let b = 2;
+let c = 3;
+function oneplus (a,b){
+  return 1 + (a / c)
+}
+console.log("sum of a and b is  ", oneplus(a, b));
+console.log("sum of a and b is  ", oneplus(a, b));
+console.log("sum of a and b is  ", oneplus(a, b));
+
+
+
+
+
+
+
+
+

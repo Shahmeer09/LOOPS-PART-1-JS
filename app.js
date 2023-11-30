@@ -612,20 +612,119 @@
 // FUNCTIONS PRACTICE :
 
 
-const hello = ()=>{
-  console.log("hello dude i am fine");
-}
-hello ()
+// const hello = ()=>{
+//   console.log("hello dude i am fine");
+// }
+// hello ()
 
-let a = 1;
-let b = 2;
-let c = 3;
-function oneplus (a,b){
-  return 1 + (a / c)
-}
-console.log("sum of a and b is  ", oneplus(a, b));
-console.log("sum of a and b is  ", oneplus(a, b));
-console.log("sum of a and b is  ", oneplus(a, b));
+
+// // EXAMPLE ;
+
+
+// let a = 1;
+// let b = 2;
+// let c = 3;
+// function oneplus (a,b){
+//   return 1 + (a / c)
+// }
+// console.log("sum of a and b is  ", oneplus(a, b));
+// console.log("sum of a and b is  ", oneplus(a, b));
+// console.log("sum of a and b is  ", oneplus(a, b));
+
+// // EXAMPLE ;
+
+// let marks = { 
+//   shahmeer:90,
+//   abdullah:87,
+//   talha:85,
+//   adnan:76
+// }
+// for(let i=0;i<marks.lenght;i++){
+//   console.log("The marks of " +(marks)[i]+ 'are ' + marks[Object.keys(marks)[i]]);
+// }
+
+// console.log(marks);
+
+
+// // EXAMPLE ;
+
+// function sayHello() {
+//   console.log("Hello, world!");
+// }
+
+// sayHello()
+
+
+// // EXAMPLE ;
+
+// function cube(x) {
+//   return x + x;
+// }
+
+// let result = cube(6); 
+// console.log(result);
+
+// // EXAMPLE ;
+
+// let sayHelloo = () => {
+//   console.log("Hello, world!");
+// }
+
+// sayHelloo ();
+
+// // EXAMPLE ;
+
+// function cookMaggi(maggi){
+//   console.log("your maggi will be ready in " + maggi  + "minutes" );
+// }
+// cookMaggi(2);
+
+// EXAMPLE ;
+
+
+// let a = 12;
+// let b =  12;
+// sum(a + b);
+
+// let c = 10;
+// let d = 10;
+// sum( c + d);
+
+// let e = 10;
+// let f = 30;
+// sum(e + f);
+
+
+// function sum(a, b){
+// let sum = a + b;
+// console.log("The Total Result is " , a);
+
+// }
+
+
+
+
+
+
+// NESTED FUNCTION ;
+
+
+// function  addSquares(a,b){
+//   const sa = square(a);
+//   const sb = square(b);
+  
+//   function square(num) {
+//     return num *  num;
+//   }
+//   return sa + sb;
+// }
+// console.log(addSquares(90,90));
+
+
+
+
+
+
 
 
 

@@ -723,14 +723,82 @@
 
 
 
+// ASSIGMNETS ;
+
+
+ //  QUESTION NO 1 : 
+
+//  function sayHello() {
+//    console.log("Hello, world!")};
+
+// sayHello();
+
+
+// QUESTION NO 2 :
+
+
+// let currentDate = new Date();
+// console.log(currentDate);
+
+
+// QUESTION NO 3 :
+
+
+// function greetUser(firstName,secondName,lastName) {
+//   let fullName = `${firstName} ${secondName} ${lastName}`;
+//   return `ASSALAM O ALAIKUM , ${fullName}`;
+// }
+
+
+// const greeting = greetUser("MUHAMMAD", "SHAHMEER", "RIZWAN");
+// console.log(greeting);
+
+// QUESTION NO 4 :
+
+// let a = prompt("please enter a first number ");
+// let b = prompt("please enter a second number ");
+
+// let c = parseInt(a) + parseInt(b);
+// console.log("the sum of " +a+ " and " +b+ " is "+ c );
 
 
 
+// QUESTION NO 5 :
+
+// NHI A RAHA 
+
+// QUESTION NO 6 :
+
+// let a = prompt("please enter a number ");
+// function squareNumber(number) {
+//     return number * number;
+// }
+
+// let squaredResult = squareNumber(a);
+
+// console.log(`The square of ${a} is ${squaredResult}`);
 
 
 
+// QUESTION NO 7 :
 
+// let a = prompt("please enter a factorial number  ");
+// function factorial(number) {
+//   if (number < 0) {
+//    return"is less than 0 please enter the number who is greater than 0"
+//   } 
+//    else {
+//       let result = 1;
+//       for (let i = 2; i <= number; i++) {
+//           result *= i;
+//       }
+//       return result;
+//   }
+// }
 
+// let inputNumber = a;
+// let result = factorial(a);
 
+// console.log(`The factorial of ${a} is ${result}`);
 
 

@@ -802,3 +802,95 @@
 // console.log(`The factorial of ${a} is ${result}`);
 
 
+const numbers = [33, 2, 8]; 
+numbers.sort();
+console.log(numbers[1])
+
+
+
+console.log(typeof NaN);
+
+console.log(false == '0');
+
+// QUIZ :
+
+
+!!~1 // TRUE
+
+
+// (function () {})()  // undefined
+
+null == undefined
+
+~~(-5.5)   // -5
+
+// [1,2,3,4][1,2]  // 3
+
+
+
+[[[[[[[22]]]]]]] == 22; // TRUE
+
+
+
+
+
+parseInt( null, 24 )=== 23  // TRUE
+
+
+
+
+// ?,,,,? == Array(4)  // FALSE
+
+
+
+
+// alert(parseInt(1/0,19));  // 18
+
+
+
+// 11. Which of the following is the tainted property of a window object in Java Script?
+
+// C. Defaultstatus 
+
+
+// 13. Which of the following is used to capture all click events in a window?
+// A. window.captureEvents(Event.CLICK);
+
+// 14. Javascript is an object oriented language?
+//true
+
+// 15. Which of the following is not a valid JavaScript variable name?
+// A. 2java
+
+// 18. ___________ JavaScript is also called client-side JavaScript.
+// B. Navigator 
+
+// 20. Why so Java and JavaScript have similar name?
+// B. The syntax of JavaScript is loosely based on Java syntax 
+
+// 21. File is a server-side JavaScript object?
+// A. True 
+
+
+// 22. What is the alternate name for Java script?
+// D. ECMAScript 
+
+
+// 28. Java Script supports all boolean operators
+// B. False
+
+// 29. Java Script entities start with ____________ and end with ______________
+// D. Ampersand, semicolon 
+
+// 12. Which attribute needs to be changed to make elements invisible?
+// B. visible 
+
+// 17. What is negative infinity in Java script?
+// D. number in JavaScript, derived by dividing negative number by zero
+
+// 24. What java wrapper type is created when a JavaScript object is sent to Java?
+// A. ScriptObject
+
+
+// 27. Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?
+// A. Eval 

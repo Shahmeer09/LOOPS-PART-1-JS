@@ -894,3 +894,15 @@ parseInt( null, 24 )=== 23  // TRUE
 
 // 27. Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?
 // A. Eval 
+
+
+
+
+
+
+
+ function displayDate() {
+        document.getElementById('showdate').innerHTML = Date();
+     Date()
+    }
+   

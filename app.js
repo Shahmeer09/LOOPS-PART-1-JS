@@ -802,39 +802,39 @@
 // console.log(`The factorial of ${a} is ${result}`);
 
 
-const numbers = [33, 2, 8]; 
-numbers.sort();
-console.log(numbers[1])
+// const numbers = [33, 2, 8]; 
+// numbers.sort();
+// console.log(numbers[1])
 
 
 
-console.log(typeof NaN);
+// console.log(typeof NaN);
 
-console.log(false == '0');
+// console.log(false == '0');
 
-// QUIZ :
+// // QUIZ :
 
 
-!!~1 // TRUE
+// !!~1 // TRUE
 
 
 // (function () {})()  // undefined
 
-null == undefined
+// null == undefined
 
-~~(-5.5)   // -5
+// ~~(-5.5)   // -5
 
-// [1,2,3,4][1,2]  // 3
-
-
-
-[[[[[[[22]]]]]]] == 22; // TRUE
+// // [1,2,3,4][1,2]  // 3
 
 
 
+// [[[[[[[22]]]]]]] == 22; // TRUE
 
 
-parseInt( null, 24 )=== 23  // TRUE
+
+
+
+// parseInt( null, 24 )=== 23  // TRUE
 
 
 
@@ -906,3 +906,37 @@ parseInt( null, 24 )=== 23  // TRUE
      Date()
     }
    
+
+
+
+
+
+    // FUNCTIONS ;
+
+    function greetUser(firstName,secondName,lastName) {
+      let fullName = `${firstName} ${secondName} ${lastName}`;
+         return `ASSALAM O ALAIKUM , ${fullName}`};
+
+         const greeting = greetUser("MUHAMMAD", "SHAHMEER", "RIZWAN");
+         console.log(greeting);
+
+
+
+         //  NEXT QUESTION :
+
+
+         let a = prompt("please enter a first number ");
+         let b = prompt("please enter a second number ");
+
+         let c = parseInt(a) + parseInt(b);
+         console.log("the sum of " +a+ " and " +b+ " is "+ c );
+
+
+
+         let str = ' madam';
+         function palindrome (){
+            console.log(str.split('').reverse().join(''));
+            if(str.split('').reverse().join() )
+
+         }
+         palindrome(str)

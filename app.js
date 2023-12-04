@@ -898,13 +898,13 @@
 
 
 
+// FUNCTIONS QUESTIONS ;
 
 
-
- function displayDate() {
-        document.getElementById('showdate').innerHTML = Date();
-     Date()
-    }
+//  function displayDate() {
+//         document.getElementById('showdate').innerHTML = Date();
+//      Date()
+//     }
    
 
 
@@ -913,30 +913,61 @@
 
     // FUNCTIONS ;
 
-    function greetUser(firstName,secondName,lastName) {
-      let fullName = `${firstName} ${secondName} ${lastName}`;
-         return `ASSALAM O ALAIKUM , ${fullName}`};
+   //  function greetUser(firstName,secondName,lastName) {
+   //    let fullName = `${firstName} ${secondName} ${lastName}`;
+   //       return `ASSALAM O ALAIKUM , ${fullName}`};
 
-         const greeting = greetUser("MUHAMMAD", "SHAHMEER", "RIZWAN");
-         console.log(greeting);
+   //       const greeting = greetUser("MUHAMMAD", "SHAHMEER", "RIZWAN");
+   //       console.log(greeting);
 
 
 
          //  NEXT QUESTION :
 
 
-         let a = prompt("please enter a first number ");
-         let b = prompt("please enter a second number ");
+         // let a = prompt("please enter a first number ");
+         // let b = prompt("please enter a second number ");
 
-         let c = parseInt(a) + parseInt(b);
-         console.log("the sum of " +a+ " and " +b+ " is "+ c );
+         // let c = parseInt(a) + parseInt(b);
+         // console.log("the sum of " +a+ " and " +b+ " is "+ c );
 
 
 
-         let str = ' madam';
-         function palindrome (){
-            console.log(str.split('').reverse().join(''));
-            if(str.split('').reverse().join() )
+        // ANOTHER QUESTION 
 
-         }
-         palindrome(str)
+
+//          let str = prompt('enter any string');
+
+//  function palindrome (str){
+//      console.log(str.split('').reverse().join(''));
+//      if(str.split('').reverse().join('') ===str){
+//          console.log('this is palindrome');
+//      }else{
+//          console.log('this is not palindrome');
+//      }
+
+//  }
+// palindrome(str);
+
+
+
+//  ANOTHER QUESTION 
+
+
+
+
+
+//  let str = prompt('enter any sentence');
+
+//  function abc(str) {
+//      let convertArr = str.split(' ');
+//      const arr = []
+//      for (let i = 0; i < convertArr.length; i++) {
+//        //   console.log(convertArr[i]);
+//          let converted = convertArr[i].charAt(0).toUpperCase() + convertArr[i].slice(1);
+//          arr.push(converted)
+
+//      }
+//      return arr.join(' ');
+//  }
+//  console.log(abc(str));

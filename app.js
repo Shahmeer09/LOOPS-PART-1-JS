@@ -971,3 +971,16 @@
 //      return arr.join(' ');
 //  }
 //  console.log(abc(str));
+
+
+
+// ANOTHER QUESTION :
+
+
+// function celsiusToFahrenheit() {
+//    let c = prompt('Enter number ,  centigrade into fahrenheits ')
+//    let f = (c * 9 / 5) + 32
+//    console.log(`${c}°C is ${f}°F`);
+// }
+
+// celsiusToFahrenheit()

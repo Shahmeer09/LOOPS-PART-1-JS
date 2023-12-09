@@ -205,7 +205,7 @@
 //  // Iterate from 1 to 7 and multiply odd numbers to the product
 //  for (let i = 1; i <= 7; i++) {
 //      if (i % 2 !== 0) {
-//          product *= i;
+//          product = i;
 //      }
 //  }
 
@@ -859,7 +859,7 @@
 // 14. Javascript is an object oriented language?
 //true
 
-// 15. Which of the following is not a valid JavaScript variable name?
+// 15. Which of the following is  valid JavaScript variable name?
 // A. 2java
 
 // 18. ___________ JavaScript is also called client-side JavaScript.
@@ -984,3 +984,577 @@
 // }
 
 // celsiusToFahrenheit()
+
+
+
+
+
+
+
+
+
+
+
+// var originalNum = 23;
+//  var numToBeAdded = 7;
+
+
+//   let newNum = originalNum + numToBeAdded;
+// console.log(newNum);
+
+
+
+
+
+
+
+
+// TEST :
+
+// QUESTION NO 1 :
+
+//  let A = ["apple", "banana", "mango", "orange", "strawberry"];
+// for (let i = 0; i < A.length; i++){
+//     console.log(A[i])
+// }
+
+
+// QUESTION NO 2 :
+
+
+// let scores = [12, 45, 3, 22, 34, 50];
+//   let stopValue = parseInt(prompt("Enter the stop value:"));
+
+//   if (!isNaN(stopValue)) {
+//       let output = [];
+//       for (let i = 0; i < scores.length; i++) {
+//          if (scores[i] <= stopValue) {
+//              output.push(scores[i]);
+//     } else {
+//              break;
+//          }
+//     }
+
+  
+//      console.log(output);
+//   } else {
+      
+//       console.log("Invalid input. Please enter a valid number.");
+//   }
+
+
+
+  // question no 6 :
+
+
+//   let str = prompt('enter any name');
+
+//    function palindrome (str){
+//        console.log(str.split('').reverse().join(''));
+//        if(str.split('').reverse().join('') ===str){
+//            console.log('this is palindrome');
+//        }else{
+//            console.log('this is not palindrome');
+//        }
+  
+//    }
+//   palindrome(str);
+
+
+
+
+
+
+// QUESTION NO 7 :
+
+
+
+// function celsiusToFahrenheit() {
+//       let c = prompt('Enter number ,  centigrade into fahrenheits ')
+//       let f = (c * 9 / 5) + 32
+//       console.log(`${c}°C is ${f}°F`);
+//    }
+    
+//    celsiusToFahrenheit()
+    
+
+
+// QUESTION NO 2 :
+
+
+
+// app 
+
+/*
+
+const phones = [
+    {
+        brand: 'Samsung',
+        model: 'S20',
+        ram: 8,
+        rom: 256,
+        camera: '20 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Xiomi',
+        model: 'note10',
+        ram: 4,
+        rom: 64,
+        camera: '10 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Infinix',
+        model: 'z10',
+        ram: 2,
+        rom: 16,
+        camera: '5 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Tecno',
+        model: 'spark10',
+        ram: 12,
+        rom: 512,
+        camera: '25 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Iphone',
+        model: '14',
+        ram: 4,
+        rom: 1024,
+        camera: '30 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Oppo',
+        model: 'F11',
+        ram: 8,
+        rom: 256,
+        camera: '20 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Vivo',
+        model: 'y20',
+        ram: 4,
+        rom: 64,
+        camera: '8 megapixel',
+        price: 15000
+    },
+    {
+        brand: 'Abdullah',
+        model: 's50',
+        ram: 50,
+        rom: 1024,
+        camera: '60 megapixel',
+        price: 300000
+    },
+
+]
+
+const div = document.querySelector('.container');
+const checkoutBtn = document.querySelector('#checkout-btn');
+
+for (let i = 0; i < phones.length; i++) {
+    // console.log(phones[i]);
+    div.innerHTML += `
+    <div class="p-5 border border-secondary-subtle m-5">
+    brand:${phones[i].brand}<br/>
+    Model:${phones[i].model}<br/>
+    price:${phones[i].price}<br/>
+    <button class="btn btn-primary my-2" onclick="addToCart(${i})">Add to Cart</button>
+    </div> 
+    `
+    
+}
+
+const data = JSON.parse(localStorage.getItem('cartItems'));
+let arr;
+if(Array.isArray(data)){
+    arr = [...data];
+}else{
+    arr = []
+}
+function addToCart(index){
+    console.log('add to cart called' , index);
+    arr.push(phones[index]);
+    console.log(arr);
+}
+
+
+function checkout (){
+    window.location = 'checkout.html'
+    localStorage.setItem('cartItems',JSON.stringify(arr))
+}
+
+checkoutBtn.addEventListener('click' , checkout) /*
+
+
+
+
+//         LAST CLASS 
+
+
+//  const obj = {
+//   name :  "shah",
+//   age : "19",
+//  }
+// console.log(obj["name"]);
+
+// for (const key in obj) {
+// console.log(`${key} : {obj [key]}`);
+
+    
+//   }
+
+// const arr = [4,5,6,7,8,56]
+// arr.forEach((item)=>{
+//   console.log(item);
+// })
+
+
+// const numbers = [65, 44, 12, 4];
+// const newArr = numbers.map( numbers => numbers);
+// console.log(numbers);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                      JAVA SCRIPT PRACTICE :
+
+
+
+
+
+// 9/12/2023   // PRACTICE JAVASCRIPT :
+// JAVA SCRIPT IS A CASE SENSITIVE :
+// TOPIC 1 :
+// VARIABLE ?
+// VARIABLE IS A CONTAINER THAT STORES A VALUE . VARIABLES ADD ANY NUMBER , STRINNG & ARRAYS 
+// HOW TO MAKE VARIABLE ? 
+
+
+// SYNTAX :
+// let  a = 67
+// console.log(a);
+
+
+// TOPIC NO 2 :
+// CONST ,  LET , VAR :
+// 1 : LET IS A BLOCK SCOPE.
+// LET CAN  BE UPDATED BUT NOT RE-DECLARED .
+
+// SYNTAX :
+// let a = 67
+// console.log(a);
+
+// EX :
+// let a = "shahmeer";
+// { let a = "shah"
+// console.log(a);}
+// console.log(a);
+
+
+// 2 :
+// VAR :
+// VAR IS GLOBALLY SCOPE .
+// LET CAN  BE UPDATED AND RE-DECLARED .
+
+// SYNTAX :
+// var a = 45;
+// console.log(a);
+
+// 3 : CONST :
+// CONST CANNOT BE UPDATED AND NOT RE DECLARED .
+// CONST IS A BLOCK SCOPE .
+
+
+// SYNTAX 
+// const a = 65;
+// console.log(a);
+
+ // const a = 65 // ERROR BECZ CONST CANNOT BE UPDATED AND NOT REDECLARED .
+
+
+ // TOPIC 3 :
+ // OBJECT , DATA TYPE (PRIMITIVE DATA TYPE ).
+
+ // THERE ARE 7 TYPE OF PRIMITIVE DATA TYPE .
+ // BEST WAY TO LEARN DATA TYPE IS => NN BB SU 
+ // N FOR NUMBER , N FOR NULL ,  B FOR BOLEAN , B FOR BIGINT , S FOR SYMBOL AND U FOR UNDEFINED.
+
+// OBJECT :
+
+// SYNTAX ;
+// const name = {
+//   name : 'shahmeer' ,
+//   section : ' b'
+// }
+// console.log(name);
+ 
+// add a new name 
+
+// const name = {
+//     name : 'shahmeer' ,
+//     section : ' b'
+//   }
+//   name['class']= '8'
+//   console.log(name);
+
+
+// TOPIC 4 :
+// OPERATORS & CONDITIONS :
+
+// OPERATORS :
+// SYNTAX :
+
+// let a = 45;
+// let  b = 4;
+
+// console.log("a + b = ", a+b);
+// console.log("a - b = ", a-b);
+// console.log("a x b = ", a*b);
+// console.log("a / b = ", a/b);
+
+
+// INCREMENT (OPERATORS):
+
+// let a = 10 ;
+// console.log("++a = " , ++a );  // 1 plus ho jaiga 
+
+
+// let a = 10 ;
+// console.log("a++ = " , a++ ); // add nhi hoga 10 , 10 hi rahega
+
+// = VARIABLE BANANE K LIYE USE HOTA 
+// += ADD KRDEGA VALUE 
+// -= MINUS KRDEGA VALUE 
+// *= MULTIPLY KR DEGA
+// /= DIVIDE KRDEGA
+
+// COMPARISON OPERATORS :
+
+// != MTLB ( NOT EQUAL TO )
+// == TYPE CHECK NHI KRTA & EQUAL TO 
+// === TYPE CHECK KRTA HAI (DONO KI TYPE SAME HAI TOU CHALEGA )  
+// !== NOT EQUAL VALUE OR NOT EQUAL TYPE
+// < (LESS THAN)
+// <= (LESS THAN OR EQUAL TO)
+// > (GREATER THAN)
+// >= (GREATER THAN OR EQUAL TO)
+
+
+// LOGICAL OPERATORS :
+
+// let  x = 5;
+// let y = 6;
+// console.log(x<y && x==5); // answer (true) && dono condition check krta hai agr dono true houngi tou true aiga result agr ek true or ek false tou false answer aiga agr dono false tou phr false 
+
+//  let  x = 5;
+//  let y = 6;
+//  console.log(x<y || x==4); // answer (false) || dono condition check nhi krta agr ek condition bhi true hogi tou true result aiga
+
+
+// !true // answer false aiga !true false krdeta hai
+// !false // answer true aiga !false true krdeta hai
+
+
+// TOPIC 5 :
+
+// CONDITIONS :
+// THERE ARE THREE TYPE OF CONDITIONS 
+// 1 ) IF STATEMENT
+// 2 ) IF/ELSE STATEMENT
+// 3 ) IF ELSE IF STATEMENT 
+
+// 1 ) IF STATEMENT :
+
+// SYNTAX :
+// let a = prompt('enter your age')
+// a = Number.parseInt(a)
+// if (a >= 18) {
+//   console.log("valid age because your age is " , a);
+// }
+
+
+// 2 ) IF ELSE STATEMENT :
+
+// SYNTAX :
+
+// if (age < 18){
+//   console.log("you are kid ");
+// }else{
+//   console.log("you are not a kid");
+// }
+
+// EXAMPLE :
+
+// USER SE OSKI AGE LO AGR 18+ HAI TOU YOU ARE 18+ SHOW HO AGR NHI HAI TOU YOU ARE KID SHOW HO 
+
+
+// let age = prompt("enter your correct age");
+// if (age < 18){
+//   console.log("you are kid ");
+// }else{
+//   console.log("you are 18+ ");
+// }
+
+
+// 3) IF . ELSE IF STATEMENT :
+
+// SYNTAX OR EXAMPLE :
+
+// let age = prompt("enter your correct age");
+// if(age <= 0){
+//   console.log("invalid age please enter correct age ");
+// }else if (age <= 10 && age >= 1 ) {
+//   console.log("you are a child go and watch cartoon");
+// } else if ( age >= 10 && age <= 18) {
+//   console.log("you are a teenager");
+// } else   {
+//   console.log("you are 18 +");
+// }
+
+
+// TERNARY OPERATOR :
+
+// SYNTAX :
+
+// (CONDITION)? " " : " "
+
+// EXAMPLE :
+
+// let age = prompt("enter your correct age");
+// console.log("you can" , (age<18?   "not drive" : "drive"));
+
+
+
+// SWITCH CASE :
+
+// SYNTAX :
+
+// SWITCH (VARIABLE) {
+// CASE " 1 " :
+// CODE ----- HERE
+// BREAK
+  // CASE " 2 " :
+// CODE ----- HERE
+// BREAK
+// CASE " 3 " :
+// CODE ----- HERE
+// BREAK
+// CASE " 4 " :
+// CODE ----- HERE
+// BREAK
+// DEFAULT :
+// CODE ---- HERE
+// } 
+
+// EXAMPLE :
+/*
+let age = prompt("enter  your age ");
+switch (age) {
+  case  "1":
+    console.log("your age is 1");
+    break;
+    case  "2":
+      console.log("your age is 2");
+      break;
+      case  "3":
+        console.log("your age is 3");
+        break;
+        case  "4":
+          console.log("your age is 4");
+          break;
+          case  "5":
+            console.log("your age is 5");
+            break;
+            case  "6":
+              console.log("your age is 6");
+              break;
+              case  "7":
+                console.log("your age is 7");
+                break;
+                case  "8":
+                  console.log("your age is 8");
+                  break;
+                  case  "9":
+                    console.log("your age is 9");
+                    break;
+                    case  "10":
+                      console.log("your age is 10");
+                      break;
+  default:
+    console.log(" your age is invalid");
+    break;
+} */
+
+
+// TOPIC  6 :
+/*                    
+ LOOOPS 
+*  EK SE ZDA VALUES LIKHNI HO TOU LOOP KA ISTEMAL KRTE HAIN :
+ THERE ARE FIVE TYPE OF LOOPS 
+ 1) FOR LOOP 
+ 2) FOR IN LOOP 
+ 3) FOR OF LOOP 
+ 4) WHILE LOOP 
+ 5) DO WHILE LOOP 
+
+1) FOR LOOP :
+ SYNTAX :
+ 
+ for ( let i = 0 ; i < 10 ; i++){
+  console.log(i);
+ }
+     statement 1         statement 2      statement 3
+ (    let i = 0     ;      i < 10      ;    i++      )
+    initialization       condition        implement
+
+* statement 1 is executed one time when the loop is start .
+* statement 2 is condition base on which the loop runs ( loop body is executed )
+if the condition is wrong the loop is stop .
+* statement 3 is executed every time when the loop body is executed .
+
+*/
+
+// EXAMPLE :
+// print 1 to 100 counting 
+ // for (let i = 0; i < 100 ; i++) {
+ // console.log(i);       // agr 100 tak value chahiye tou console.log mai (i+1) likh dain
+ // }
+
+
+
+
+
+ 

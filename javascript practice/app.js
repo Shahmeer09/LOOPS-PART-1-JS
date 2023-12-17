@@ -1571,6 +1571,7 @@ if the condition is wrong the loop is stop .
 
 
  // QUESTION NO 6 :
+ // QUESTION NO 6 :
 
 // let a = prompt("please enter a number ");
 // function squareNumber(number) {

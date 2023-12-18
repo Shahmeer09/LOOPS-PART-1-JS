@@ -1698,3 +1698,35 @@ if the condition is wrong the loop is stop .
 
 // 27. Which of the following method is used to evaluate a string of Java Script code in the context of the specified object?
 // A. Eval 
+
+
+
+let a = prompt("please enter a factorial number  ");
+// function factorial(number) {
+//   if (number < 0) {
+//    return"is less than 0 please enter the number who is greater than 0"
+//   } 
+//    else {
+//       let result = 1;
+//       for (let i = 2; i <= number; i++) {
+//           result *= i;
+//       }
+//       return result;
+//   }
+// }
+
+// let inputNumber = a;
+// let result = factorial(a);
+
+// console.log(`The factorial of ${a} is ${result}`);
+
+
+// const numbers = [33, 2, 8]; 
+// numbers.sort();
+// console.log(numbers[1])
+
+
+
+// console.log(typeof NaN);
+
+// console.log(false == '0');

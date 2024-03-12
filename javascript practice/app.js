@@ -2000,3 +2000,87 @@ let a = prompt("please enter a factorial number  ");
 
 
 
+
+
+// const img = document.querySelector('img')
+// const para = document.querySelector('p')
+
+// function toss(clicked){
+//     let roundNumber = Math.floor(Math.random()*2);
+//     console.log(roundNumber);
+//     if(clicked === 'masjid' && roundNumber === 0 || clicked === 'chand' && roundNumber === 1){
+//         console.log(clicked , 'toss jeet gai');
+//         para.innerHTML = 'toss jeet gai'
+//     }else{
+//         console.log('toss haar gaye');
+//         para.innerHTML = 'toss haar gaye'
+// }
+// if (roundNumber === 1){
+//     Image.scr = ''
+// }else{
+//     Image.scr = ''
+// }
+
+
+
+
+
+
+// let grade = 'B';
+
+// switch (grade) {
+//     case 'A':
+//         console.log('A grade');
+//         break
+//     case 'B' :
+//         console.log('B grade');
+//         break
+//     case 'C' :
+//         console.log('C grade');
+//         break
+//     default:
+//         console.log('fail ho gai');
+// }
+
+
+// let num = 1;
+// switch (true) {
+//     case  num > 5 :
+//         console.log("case 1 chl raha hai");
+//         break
+//         default:
+//             console.log('case 2 chl raha');
+
+//     }
+
+
+// let currentDate = new Date('Octuber 21 , 2004');
+// console.log(currentDate);
+
+// let grade = 'B';
+
+// switch (grade) {
+//     case 'A':
+//         console.log('A grade');
+//         break
+//     case 'B' :
+//         console.log('B grade');
+//         break
+//     case 'C' :
+//         console.log('C grade');
+//         break
+//     default:
+//         console.log('fail ho gai');
+// }
+
+
+// LOOPS :
+
+// for (let i = 0; i < 5; i++ ) {
+//     console.log('shahmeer',i);
+// }
+
+
+
+
+

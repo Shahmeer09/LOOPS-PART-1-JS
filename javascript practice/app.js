@@ -1951,6 +1951,50 @@ let a = prompt("please enter a factorial number  ");
 
 
 
+// FUNCTION :
+
+// function greetuser() {
+// console.log("hello world");
+// console.log("hello world");
+// console.log("hello world");
+// console.log("hello world");
+// console.log("hello world");
+// console.log("hello world");
+// }
+
+// greetuser();
+// greetuser();
+// greetuser();
+
+
+// ARGUMENT OR PARAMETER :
+
+// function greetuser(names , age , salary) {
+//     console.log("my name is " + names + " and my age is " + age + " and my salary is " + salary);}
+
+
+//     greetuser(" shahmeer " , 20 , 20000 );
+
+
+
+//     function sumofTwoNum(num1, num2) {
+//         const sum = num1 + num2
+//         return sum
+//     }
+
+//     console.log(sumofTwoNum(8, 9));
+
+
+
+
+//      let userName = prompt('Enter your name');
+//  let amount = Number(prompt('Enter amount'));  
+//  let age = Number(prompt('Enter age')); 
+
+
+ 
+//  let  = amount
+ 
 
 
 

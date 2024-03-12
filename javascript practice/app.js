@@ -1730,3 +1730,96 @@ let a = prompt("please enter a factorial number  ");
 // console.log(typeof NaN);
 
 // console.log(false == '0');
+
+
+
+
+
+
+
+
+
+
+
+
+
+// console.log("4+4");
+// let name = 'shahmeer'
+// let age = 19 
+// console.log("my name is shahmeer "+ "1" + 9 + ".")
+
+// percentage
+
+// let username = prompt("enter your name");
+// let chemmarks = Number(prompt("enter chemistry marks"));
+// let physmarks = Number(prompt("enter physics marks"));
+// let mathsmarks = Number(prompt("enter maths marks"));
+// let biomarks = Number(prompt("enter biology marks"));
+
+// let totalmarks = 400;
+// let usertotal = chemmarks + physmarks + mathsmarks + biomarks
+// let percentage = usertotal / totalmarks * 100;
+
+// console.log("student name " + username + " got " + percentage +"%.")
+
+// let num = 1;
+// num += 2
+// console.log(num);
+
+// let names = ''
+// let age = 19
+// console.log("My name is " + names + " and my age is " + age + ".")
+
+
+// let userName = prompt('Enter your name');
+// let chemMarks = Number(prompt('Enter chemistry marks'));  
+// let phyMarks = Number(prompt('Enter physics marks'));  
+// let mathsMarks = Number(prompt('Enter maths marks'));  
+// let bioMarks = Number(prompt('Enter biology marks'));  
+
+// let totalMarks = 400;
+// let userTotal = chemMarks + phyMarks + mathsMarks + bioMarks;
+// let percentage = userTotal / totalMarks * 100;
+
+// console.log( userName + " got " + percentage + "%.")
+
+// let num = 1;
+// // num = num + 2;
+// num += 2
+// console.log(num);
+
+
+// let num1 = 10;
+// let num2 = 10;
+// let cond = num1 > num2;
+// let cond = num1 < num2;
+// let cond = num1 === num2;
+// let cond = num1 === num2;
+// let cond = num1 >= num2;
+// let cond = num1 <= num2;
+// let cond = num1 == num2;
+
+// console.log(cond);
+
+//&&
+//||
+
+// let condition = 9 < 6 || 10 > 9;
+// let condition2 = 10 > 9 && 9 < 6;
+
+// console.log(condition2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

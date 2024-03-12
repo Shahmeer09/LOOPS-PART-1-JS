@@ -1815,6 +1815,139 @@ let a = prompt("please enter a factorial number  ");
 
 
 
+// 1)  ASSIGNMENT 1 ( ALERT ) ;
+
+
+// console.log("hello world");
+
+// alert("Welcome to the JS Land!")
+// alert("Error! Please enter a valid password.")
+
+// alert("Welcome to JS Land...\nHappy Coding!")
+
+// alert("Welcome to JS Land...")
+
+// END :
+
+
+// ASSIGNMENT 2 :
+
+// let hellomessage = alert('Hello...I can run JS through my browsers console');
+// console.log('hellomessage');
+
+
+// var userName = 'Muhammad Shahmeer '
+// var myName = 'Muhammad Shahmeer'
+
+//  var message = 'Hello World'
+// alert(message)
+
+// END ;
+
+
+// let age = '18 years old'
+// let uni = 'SSUET'
+// let skill = 'Mobile and Cloud Computing - Module A'
+
+//  alert(myName)
+//  alert(age)
+//  alert(uni)
+//  alert(skill)
+
+//  let pizza = 'PIZZA\nPIZZ\nPIZ\nPI\nP'
+//  alert(pizza)
+
+//  let numberofchildren = '2 kids.'
+//  let partnersName = 'ABC'
+//  let geographicLocation = 'USA,'
+//  let jobTitle = 'Sofware Developer'
+
+//  alert("You will be a " + jobTitle + ' in ' + geographicLocation + ' and married to ' + partnersName + ' with ' + numberofchildren )
+
+
+// var email = 'shahmeerrizwan921@gmail.com.'
+
+// alert('My email address is ' + email )
+
+// var book = 'A smarter way to learn JavaScript'
+
+// alert('I am trying to learn from the book ' + '"' + book + '"')
+
+
+// var myName2 = 'My name is Muhammad Shahmeer'
+// var age2 = 'I am 17 years old'
+// var skill2 = 'I take Mobile and Cloud Computing - Module A'
+// var uni2 = 'I study in SSUET'
+
+// alert(myName2 + '\n' + age2 + '\n' + uni2 + '\n' + skill2)
+
+// document.write('Yay! I can write HTML content through JavaScript')
+
+
+
+// var myage = 'I am 14 years old.'
+// alert(myage)
+
+// var names = 'abdullah';
+// names = 'usman';
+// console.log(names);
+
+
+// let names = 'abdullah'
+// names = 'usman';
+// console.log(names);
+
+
+// const names = 'abdullah'
+// names = 'usman'
+// console.log(names);
+
+// var number = 10;
+
+// if (number % 2 === 0) {
+//   console.log(number + " is even.");
+// } else {
+//   console.log(number + " is odd.");
+// }
+
+
+// var checkbox = document.getElementById(input.checkbox)
+
+// if (checkbox) {
+//     alert('checkbox is checked')
+// }
+// else {
+//     alert('checkbox is not checked')
+// }
+
+
+// Check if localStorage already has a visit count
+//  if(localStorage.getItem('visitCount')) {
+//  If yes, increment the count by 1
+// var visitCount = parseInt(localStorage.getItem('visitCount')) + 1;
+// } else {
+//   If not, set the count to 1
+//    var visitCount = 1;
+//    }
+
+//    Store the updated visit count in localStorage
+//    localStorage.setItem('visitCount', visitCount);
+
+//    Display the visit count on the webpage
+//   document.write("You have visited this site " + visitCount + " times.");
+
+
+
+
+
+// const wicket = 6 
+
+// if ( wicket >= 5 )
+// console.log("draw")
+// else ( wicket <=10)
+
+
+
 
 
 

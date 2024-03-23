@@ -2174,4 +2174,50 @@ console.log(a); // Answer is 80 bcz code execute line by line
 
 
 
+// LET = block scope  // let can be updated but not re-declared
+// VAR = globally scope  // var can be updated or re-declared
+// CONST  = block scope // const cannot be updated or redeclared
+
+// Const example:
+// const sin = "shahmeer"
+// sin = "anwara"
+// console.log(sin);
+
+// Let Example // Var
+// let shah = "meer"
+
+// shah = "shahaa"
+// console.log(shah);
+
+// var abc = "ABC";
+// var abc = "ABD";
+// console.log(abc);
+
+
+// CHAPTER OBJECT & DATA TYPE
+
+// PRIMITIVE DATA TYPE
+
+// There  Are seven Types Of Data Types
+// 1) Null
+// 2) Number
+// 3) Boolean
+// 4) Bigint
+// 5) String
+// 6) Symbol
+// 7) Undefined
+
+
+// Short Form to learn NNBBSSU
+
+
+// NON PRIMATIVE DATA TYPE = OBJECT
+
+
+// Chapter Increment Decrement
+
+// ++7 = agr age plus hoga tou wo pre increment kehlata hai . mtlb phele plus ho jaiga chahe baad mai koi value ho ya na ho
+// 7++ = agr peche plus hoga post increment kehlaiga . mtlb phele plus nhi hoga agr iske baad koi value hogi tou jab ye plus hoga .
+// --7 = agr aage minus hoga tou pre decrement kehlaiga .mtlb phele minus hoga .
+// 7-- = agr peche minus hoga tou post decrement kehlaiga .mtlb bad mai minus hoga agr bad mai koi value hogi tou minus hoga agr nhi hogi tou minus bhi nhi hoga .
 

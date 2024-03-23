@@ -2221,3 +2221,26 @@ console.log(a); // Answer is 80 bcz code execute line by line
 // --7 = agr aage minus hoga tou pre decrement kehlaiga .mtlb phele minus hoga .
 // 7-- = agr peche minus hoga tou post decrement kehlaiga .mtlb bad mai minus hoga agr bad mai koi value hogi tou minus hoga agr nhi hogi tou minus bhi nhi hoga .
 
+
+
+
+// Chapter Logical Operator
+
+// So 
+// True + True = True
+// False + False = False
+// True + False = False
+// False + True = False
+
+
+// let x = 5;
+// let y = 6;
+// console.log(x < y || x == 5);  // True
+
+
+// && ye dono condition check krta hai agr inme se ek bhi false hogi tou false return dega agr dono false tou false or agr dono true tou phr true return karega
+
+// || iska mtlb ye dono conditions check karega agr dono mai se ek bhi true hai tou true return karega agr dono value false hai tou false .
+
+
+

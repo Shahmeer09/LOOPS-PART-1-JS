@@ -2317,3 +2317,84 @@ console.log(a); // Answer is 80 bcz code execute line by line
 // What instanceof actually does is checking if the String constructor is nested within the prototype chain of the value provided.
 
 // In this case, it isn't.
+
+
+
+
+
+
+// 4) console.log(018 - 015);
+
+// Explanation!
+// This will actually result in 5 but this is pretty strange, isn't it?
+
+// Please note, that this example will only work in lax mode, and not in strict mode, and we will come to the explanation soon enough.
+
+// In earlier versions of JavaScript, a leading 0 on a number marked an octal number.
+
+// Octal numbers are numbers with a base of 8 (instead 10 like with decimal numbers).
+
+// This means that numbers from 0 to 7 are valid digits.
+
+// In our case, 018 can't actually be a octal number, can it?
+
+
+// 5) console.log(false == '0');
+
+// Explanation!
+// The answer is true.
+
+// In this situation, the abstract equality comparison algorithm is used, which is also called the type-coercing equality check.
+// What it does is converting the values as long as possible, until they match in type and can be compared strictly.
+
+// In this case, the following steps are performed:
+
+// // 1st step
+// false == '0'
+
+// // 2nd step
+// Number(false) == '0' -> 0 == '0'
+
+// // 3rd step
+// 0 == '0' -> 0 == Number('0')
+
+// // 4th step
+// 0 == 0 -> 0 === 0 -> true
+
+// Well it can't and the runtime knows this, which is why it treats 018 as 18 although the right side contains a perfectly valid octal number 015 which is 13 in decimal.
+
+// And the runtime will perform the calculation exactly like this, which results in:
+
+// 18 - 13 -> 5
+
+
+// 6) console.log(0.1 + 0.2 == 0.3);
+
+// Explanation!
+// The answer is false.
+
+// This is not a JavaScript quirk but actually based on floating point arithmetic.
+// Some decimal numbers simply can't be represented accurately by computers and some decimal numbers can't be added up accurately.
+// This is the case in this situation.
+
+// 0.1 + 0.2 -> 0.30000000000000004
+
+// And 0.30000000000000004 is never equal to 0.3.
+
+
+
+// 7) const numbers = [33, 2, 8];  //33
+// numbers.sort();
+// console.log(numbers[1])
+
+
+//8) console.log(typeof NaN); // Number
+
+
+console.log(('b' + 'a' + + 'a' + 'a').toLowerCase()); // b + a = ba & ba + + = NaN = banan + a = banana
+
+
+
+var x = "5";
+var y = 10;
+alert(x + y)

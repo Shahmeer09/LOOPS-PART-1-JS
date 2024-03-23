@@ -2112,3 +2112,33 @@ let a = prompt("please enter a factorial number  ");
 // let days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
 // console.log(days[currentDate,currentDate]);
 
+
+
+
+
+
+// PRACTICE FOR QUIZ IN [SMIT] 
+
+// 1) JavaScript is a Case Sensitive
+
+
+
+
+// Defference Between in Undefined Or Not Defined
+
+// Not Defined => Jab Declared Or Iniatialized Nhi Kiya Hoga Tou Not Defined Aiga
+// eg
+// console.log(shahmeer);
+
+
+// UnDefined => Varialble Banawa Hai Pr Value nhi di
+// eg
+// let shah;
+// console.log(shah);
+
+
+var a = 98;
+var a = 80;
+
+console.log(a); // Answer is 80 bcz code execute line by line
+

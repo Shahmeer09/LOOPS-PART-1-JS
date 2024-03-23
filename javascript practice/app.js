@@ -2142,3 +2142,36 @@ var a = 80;
 
 console.log(a); // Answer is 80 bcz code execute line by line
 
+
+
+
+
+
+// in javascript only two characters are allowed in initialization
+// first is dollar sign "$"
+// Second is "_" underscore
+
+// eg
+// let $abc = "shahmeer"
+// let _abc="shah"
+
+
+// Chapter Let Var Const :
+
+// const shah = 20; //cannot redeclared block scope variables
+// console.log(shah);
+
+// let shah=
+
+
+
+// let b = "shahmeer"
+// {
+//     let b = "shah";   // First Render Shah
+//     console.log(b);  // then Render Shahmeer
+// }
+// console.log(b);
+
+
+
+

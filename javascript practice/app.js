@@ -2259,3 +2259,61 @@ console.log(a); // Answer is 80 bcz code execute line by line
 
 
 
+
+
+// QUIZ QUESTIONS
+
+// 1) console.log(typeof typeof 1); // = STRING BCZ typeof "number" which returns "string".
+
+// Explanation!
+// This actually returns "string".
+
+// This expression is evaluated from right to left.
+
+// The first sub-expression evaluated actually is typeof 1 which will return "number".
+
+// Only after that the next sub-expression is evaluated which now is typeof "number" which returns "string".
+
+
+// 2) console.log(1 +  "2" + "2");
+
+
+// Explanation!
+// The result is "122", but why is that?
+
+// The plus operator is defined for numbers and for strings and the expression is evaluated from left to right.
+
+// The interesting thing about the algorithm behind it is, that it checks whether a string is present.
+
+// If we take a look at how the runtime handles the expression, it will start with the first part as follows:
+
+// 1 + "2"
+
+// And as the right side contains a string, a concatenation will be made, which results in n intermediary result of
+
+// 1 + "2" -> "12"
+
+// Only after that, the last part is evaluated as follows:
+
+// "12" + "2" -> "122"
+
+
+// 3) console.log("This is a string." instanceof String);
+
+
+// Explanation!
+// This actually returns false.
+
+// The reason for that circumstance is that JavaScript distinguishes between primitives and objects.
+
+// And "This is a string." is actually a primitive string and not an instance of the object String.
+
+// If the code was like this:
+
+// new String("This is a string.") instanceof String
+
+// you'd actually get the result you would have expected at the beginning.
+
+// What instanceof actually does is checking if the String constructor is nested within the prototype chain of the value provided.
+
+// In this case, it isn't.

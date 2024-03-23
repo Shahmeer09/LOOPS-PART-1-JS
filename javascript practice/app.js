@@ -2244,3 +2244,18 @@ console.log(a); // Answer is 80 bcz code execute line by line
 
 
 
+
+// Chapter Loop
+
+
+// there are 5 types of loops
+
+// FOR LOOP
+// FOR IN LOOP
+// FOR OFF LOOP
+// WHILE LOOP
+// DO WHILE LOOP
+
+
+
+

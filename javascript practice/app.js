@@ -2482,3 +2482,28 @@ alert(x + y)
 // <br>
 // The Remainder is ${initialValue % 3}
 // `)
+
+
+
+
+
+
+// QUESTION NO 4
+
+// let movieTicket = 600;
+// let buyTicket = 5;
+
+// document.write(`
+// Total Cost to Buy ${buyTicket} Tickets To a Movie is ${buyTicket * movieTicket} PKR
+// `)
+
+
+// QUESTION NO 5 :
+
+
+// let number = prompt("Enter Any Number You Want To Generate Table");
+
+// for (i = 1; i <= 10; i++) {
+//     document.write(` ${number}  x   ${i}   = ${number * i}<br>`)
+// }
+

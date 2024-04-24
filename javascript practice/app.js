@@ -2507,3 +2507,26 @@ alert(x + y)
 //     document.write(` ${number}  x   ${i}   = ${number * i}<br>`)
 // }
 
+
+// QUESTION NO 6 :
+
+
+// PART A )
+// Celsius Into Fehrenheit
+
+// let celsius = prompt("Enter Celcius Temperature Into Fehrenheit");
+
+// document.write(`
+//  The Temperature in Celsius is ${celsius} C<sup>0</sup> And Fehrenheit is ${(celsius * 9 / 5) + 32}
+// `)
+
+
+// PART B )
+//   Fehrenheit Into Celsius
+
+
+// let fehrenheit = prompt("Enter A fehrenheit Temperature Into Celsius");
+
+// document.write(`
+// The Temperature in Fehrenheit is ${fehrenheit} F<sup>0</sup> And in Celsius is ${(fehrenheit - 32) * 5 / 9}C<sup>0</sup>
+// `)

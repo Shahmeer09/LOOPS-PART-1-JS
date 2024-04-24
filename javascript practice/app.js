@@ -2457,3 +2457,28 @@ alert(x + y)
 
 // alert(`The Remainder of ${num1} And ${num2} is ${num1 % num2}`)
 
+
+
+
+
+
+
+// QUESTION NO 3 :
+
+
+// let value;
+// document.write(`"Value
+// after variable declaration is ${value} " <br>`)
+
+
+// let initialValue = 3;
+// document.write(`The Initial Value is ${initialValue}
+// <br>
+// Value After Increment is ${++initialValue}
+// <br>
+// Value After 7 addition is ${7 + initialValue}
+// <br>
+// Value After Decrement is ${--initialValue}
+// <br>
+// The Remainder is ${initialValue % 3}
+// `)

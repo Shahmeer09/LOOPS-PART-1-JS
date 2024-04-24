@@ -2588,3 +2588,50 @@ alert(x + y)
 //  `)
 
 
+
+
+// QUESTION NO 8 :
+
+
+// let marksObtained = prompt("Enter a Marks You Obtained");
+// let ToatalMarks = prompt("Enter a Total Marks And I Will Generate Your Percentage");
+// document.write(`
+// <center>
+// <h1> Mark Sheet </h1>
+// <br>
+// <br>
+// Your Total Marks is ${marksObtained}<br>
+// Your Obtained Marks is ${marksObtained}<br>
+// Congratulations You Got ${marksObtained / ToatalMarks * 100}%
+// </center>
+// `)
+
+
+
+// QUESTION NO 9 :
+
+
+// USD DOLLARS INTO PKR
+
+// let usd = prompt("Enter a Amount You Want To Convert USD Dollars Into PKR Currency");
+
+// document.write(`
+// <center>
+// <h1> USD Dollars Into PKR </h1>
+// <b> The Amount You Convert ${usd} USD into PKR is ${usd * 279.50} PKR </b>
+// </center>
+// `)
+
+
+// PKR INTO USD DOLLARS
+
+
+// let pkr = prompt("Enter Amount You Want To Convert PKR Into USD Dollars");
+// document.write(`
+// <center>
+// <h1>Pakistanis Rupees Converter Into USD Dollars</h1>
+// <b>The Amount You Convert ${pkr} PKR Into USD Dollars is ${pkr * 0.0036} USD</b>
+// </center>
+// `)
+
+

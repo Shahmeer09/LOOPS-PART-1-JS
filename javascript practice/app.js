@@ -2398,3 +2398,62 @@ console.log(('b' + 'a' + + 'a' + 'a').toLowerCase()); // b + a = ba & ba + + = N
 var x = "5";
 var y = 10;
 alert(x + y)
+
+
+
+
+
+
+// MATH EXPRESSIONS QUESTIONS 
+
+// QUESTION NO 1 :
+
+
+// let num1 = 10;
+// let num2 = 80;
+
+// alert(`The Sum of ${num1} and ${num2} is ${num1 + num2}`);
+
+
+
+
+// QUESTION NO 2 :
+
+//   A Part )
+
+
+// let num1 = 30;
+// let num2 = 20;
+
+// alert(`The Substraction of ${num1} and ${num2} is ${num1 - num2}`)
+
+
+
+// B Part )
+
+
+// let num1 = 20;
+// let num2 = 20;
+
+// alert(`The Multiplication Of ${num1} And ${num2} is ${num1 * num2}`)
+
+
+
+// C Part )
+
+
+// let num1 = 19;
+// let num2 = 12;
+// alert(`The Dividing of ${num1} And ${num2} is ${num1 / num2}`)
+
+
+
+
+// D Part )
+
+
+// let num1 = 10;
+// let num2 = 20;
+
+// alert(`The Remainder of ${num1} And ${num2} is ${num1 % num2}`)
+

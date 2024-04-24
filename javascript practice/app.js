@@ -2713,3 +2713,46 @@ alert(x + y)
 // </center>
 // `)
 
+
+
+
+
+// QUESTION NO 14 :
+
+
+
+// let a = 2; // 1
+// let b = 1; // 0 1
+
+// let result = --a - --b + ++b + b--;
+// //             1 -   0 +   1 + 1
+// document.write(`
+// a is ${a}
+// <br>
+// b is ${b}
+// <br>
+// Result is ${result}
+// `)
+
+
+
+// QUESTION NO 15 :
+
+
+// let favChips = prompt("Enter Your Favourite Snacks");
+// let currentAge = Number(prompt("Enter Your Current Age"));
+// let maximumAge = Number(prompt("Enter Your Maximum Age"));
+// let totalAge = maximumAge - currentAge;
+// let days = totalAge * 365;
+// let amountOfSnacksPerDay = 2;
+
+
+// document.write(`
+// You Will Need ${days * 2} ${favChips} to Last You Until The Ripe Old Age Of ${maximumAge} .
+// `)
+
+
+
+
+
+//                       COMPLETED 

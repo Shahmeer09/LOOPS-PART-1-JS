@@ -2635,3 +2635,31 @@ alert(x + y)
 // `)
 
 
+
+
+// QUESTION NO 10 :
+
+// let variable = +prompt("Enter Any Number For Airthmatic Sequence");
+// alert(variable + 5 * 10 / 2)
+
+
+
+// QUESTION NO 11 :
+
+
+// let birthdayYear = prompt("Enter Your Birthday Year And I Will Generate Your Age ");
+// let currentYear = new Date().getFullYear();
+// document.write(`
+// <center>
+// <h1> The Age Calculator </h1>
+// <b>
+// Current Year is ${currentYear} <br>
+// Your Birth Year is ${birthdayYear} <br>
+// <br>
+// <br>
+// You Are ${currentYear - birthdayYear} Years Olds
+// </b>
+// </center>
+// `)
+
+

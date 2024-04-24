@@ -2530,3 +2530,61 @@ alert(x + y)
 // document.write(`
 // The Temperature in Fehrenheit is ${fehrenheit} F<sup>0</sup> And in Celsius is ${(fehrenheit - 32) * 5 / 9}C<sup>0</sup>
 // `)
+
+
+
+
+
+
+
+
+// QUESTION NO 7 :
+
+// let Priceofitem1 = 560;
+// let Priceofitem2 = 200;
+// let quantityofitem1 = 2;
+// let quantityofitem2 = 5;
+// let shippingCharges = 150;
+
+// document.write(`
+// <center>
+// <h1> SHOPPING CART </h1>
+// Price of Item 1 is ${Priceofitem1}<br>
+// Quantity of Item 1 is ${quantityofitem1}<br>
+// Price of Item 2 is ${Priceofitem2}<br>
+// Quantity of Item 2 is ${quantityofitem2}<br>
+// <br>
+// Shipping charges is ${shippingCharges}
+// <br>
+// <br>
+// Total Cost Of Your Order is ${Priceofitem1 * 2 + Priceofitem2 * 5 + 150}
+// </center>
+// `)
+
+
+
+
+// FORM USER DATA FROM PROMPT :
+
+// let Priceofitem1 = prompt("Enter Price Of Item 1");
+// let Priceofitem2 = prompt("Enter Price of Item 2");
+// let quantityofitem1 = prompt("Enter Quantity of Item 1");
+// let quantityofitem2 = prompt("Enter Quantity of Item2");
+// let shippingCharges = 150;
+
+// document.write(`
+//  <center>
+//  <h1> SHOPPING CART </h1>
+//  Price of Item 1 is ${Priceofitem1}<br>
+//  Quantity of Item 1 is ${quantityofitem1}<br>
+//  Price of Item 2 is ${Priceofitem2}<br>
+//  Quantity of Item 2 is ${quantityofitem2}<br>
+//  <br>
+//  Shipping charges is ${shippingCharges}
+//  <br>
+//  <br>
+//  Total Cost Of Your Order is ${Priceofitem1 * quantityofitem1 + Priceofitem2 * quantityofitem2 + 150}
+//  </center>
+//  `)
+
+

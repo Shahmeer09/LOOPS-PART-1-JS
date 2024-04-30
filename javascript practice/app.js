@@ -3182,3 +3182,89 @@ alert(x + y)
 //      // Display an error message if the input is not a valid number
 //      console.log("Invalid input. Please enter a valid positive number.");
 //  }
+
+
+
+
+
+// question 20
+
+// // Ask the user for the number of lines
+// let numLines = parseInt(prompt("Enter the number of lines for pattern a:"));
+
+// Create and display pattern a
+// for (let i = 0; i < numLines; i++) {
+//     let line = '';
+//     for (let j = 0; j < 5; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+//     console.log(numLines);
+// }
+// document.write('<br>');
+
+// Create and display pattern b
+// for (let i = 1; i <= numLines; i++) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
+// document.write('<br>');
+
+// Create and display pattern c
+// for (let i = numLines; i > 0; i--) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
+
+ // usama
+ // Create and display pattern c
+// for (let i = numLines; i > 0; i--) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
+
+// 9 11 23
+
+// question 20
+
+// // Ask the user for the number of lines
+// let numLines = parseInt(prompt("Enter the number of lines for pattern a:"));
+
+// Create and display pattern a
+// for (let i = 0; i < numLines; i++) {
+//     let line = '';
+//     for (let j = 0; j < 5; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+//     console.log(numLines);
+// }
+// document.write('<br>');
+
+// Create and display pattern b
+// for (let i = 1; i <= numLines; i++) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }
+// document.write('<br>');
+
+// Create and display pattern c
+// for (let i = numLines; i > 0; i--) {
+//     let line = '';
+//     for (let j = 0; j < i; j++) {
+//         line += '*';
+//     }
+//     document.write(line + '<br>');
+// }

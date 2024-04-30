@@ -3108,3 +3108,36 @@ alert(x + y)
 //          console.log(A[i][j]);
 //      }
 //  }
+
+
+
+//question 16
+
+// Ask the user for input
+//  let num = parseFloat(prompt("Enter a number:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(num)) {
+//    //   Repeat and print the value of num while num is positive
+//      while (num > 0) {
+//          console.log(num);
+//          num -= 0.5;
+//      }
+//  } else {
+//     //  Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }
+
+
+//question 17
+
+// Using a for loop to iterate from 0 to 20
+//  for (let i = 0; i <= 20; i++) {
+//     //  Checking if the current number is even or odd
+//      if (i % 2 === 0) {
+//          console.log(i + " is even");
+//      } else {
+//          console.log(i + " is odd");
+//      }
+//  }
+

@@ -2850,3 +2850,80 @@ alert(x + y)
 
 //  }
 
+
+
+//question 6
+
+// let input = prompt("Enter a character:");
+
+// if (input.length === 1) {
+//     let charCode = input.charCodeAt(0);
+    
+//     if (charCode >= 48 && charCode <= 57) {
+//         console.log("The input is a number.");
+//     }
+//     else if (charCode >= 65 && charCode <= 90) {
+//         console.log("The input is an uppercase letter.");
+//     }
+//     else if (charCode >= 97 && charCode <= 122) {
+//         console.log("The input is a lowercase letter.");
+//     }
+//     else {
+//         console.log("The input is neither a number nor a letter.");
+//     }
+// } else {
+//     console.log("Invalid input. Please enter a single character.");
+// }
+
+
+//question 7
+
+// let number1 = prompt("Enter the first number:");
+// let number2 = prompt("Enter the second number:");
+// let operator = prompt("Enter the operator (+, -, *, /, %):");
+
+// let result;
+// switch (operator) {
+//     case '+':
+//         result = number1 + number2;
+//         console.log("Result: " + result);
+//         break;
+//     case '-':
+//         result = number1 - number2;
+//         console.log("Result: " + result);
+//         break;
+//     case '*':
+//         result = number1 * number2;
+//         console.log("Result: " + result);
+//         break;
+//     case '/':
+//         if (number2 !== 0) {
+//             result = number1 / number2;
+//             console.log("Result: " + result);
+//         } else {
+//             console.log("Error: Division by zero is not allowed.");
+//         }
+//         break;
+//     case '%':
+//         if (number2 !== 0) {
+//             result = number1 % number2;
+//             console.log("Result: " + result);
+//         } else {
+//             console.log("Error: Modulus by zero is not allowed.");
+//         }
+//         break;
+//     default:
+//         console.log("Invalid operator. Please enter a valid operator (+, -, *, /, %).");
+// }
+
+
+//question 8
+
+// let age = 14
+// console.log(age);
+// if (age>18){
+//     console.log('you are allowed');
+
+// }
+// else{ console.log('you are not allow');}
+

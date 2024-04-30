@@ -3064,3 +3064,47 @@ alert(x + y)
 //  }
 //  table += '</table>'
 //  document.write(table)
+
+
+
+
+
+//question 14 
+
+// Given array
+//  var scores = [12, 45, 3, 22, 34, 50];
+
+//  // Ask the user for the stop value
+//  var stopValue = parseInt(prompt("Enter the stop value:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(stopValue)) {
+//      // Iterate through the array and print numbers until the stop value is reached
+//      var output = [];
+//      for (var i = 0; i < scores.length; i++) {
+//         if (scores[i] <= stopValue) {
+//             output.push(scores[i]);
+//    } else {
+//             break;
+//         }
+//    }
+    
+//    // Print the output
+//     console.log(output);
+//  } else {
+//      // Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }
+
+
+//question 15
+
+//  // Given 2D array
+//  let A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+//   // Using nested for loops to print each element on a new line
+//  for (let i = 0; i < A.length; i++) {
+//      for (let j = 0; j < A[i].length; j++) {
+//          console.log(A[i][j]);
+//      }
+//  }

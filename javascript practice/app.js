@@ -2927,3 +2927,35 @@ alert(x + y)
 // }
 // else{ console.log('you are not allow');}
 
+
+
+
+//question 9
+
+
+//  let year = prompt("Enter a year");
+
+//  if (!isNaN(year) && year.toString().length === 4) {
+//      if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+//          console.log(year + " is a leap year.");
+//      } else {
+//          console.log(year + " is not a leap year.");
+//      }
+//  } else {
+//      console.log("Invalid input. Please enter a valid year in YYYY format.");
+//  }
+
+
+//question 10
+
+//  let correctPassword = "pass123";
+
+//  let userPassword = prompt("Enter your password:");
+
+//  if (userPassword === "") {
+//      console.log("Please enter your password.");
+//  } else if (userPassword === correctPassword) {
+//      console.log("Correct! The password you entered matches the original password.");
+//  } else {
+//      console.log("Incorrect password.");
+//  }

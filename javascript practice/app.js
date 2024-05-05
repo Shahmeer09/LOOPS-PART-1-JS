@@ -3333,3 +3333,39 @@ alert(x + y)
 
 
 
+//question 11
+
+// let A = [24, 53, 78, 91, 12]
+
+// let largeNum = A[0]
+// let SmallNum = A[0]
+
+// for (let i = 1; i < A.length; i++){
+//     if (A[i] > largeNum){
+//         largeNum = A[i]
+//     } else if (A[i] < SmallNum){
+//         SmallNum = A[i]
+//     }
+// }
+// console.log(`The Array is ${[A]}`)
+// console.log("The largest number in the array is: " + largeNum)
+// console.log("The smallest number in the array is: " + SmallNum)
+
+//question 12
+
+// for (let i = 5; i <= 100; i += 5){
+//     document.write(`${[i]}, `)
+// }
+
+//question 13
+
+//  let students = ["Ali", "Abdullah", "Talha", "Ahsan"]
+//  let scores = [58, 73, 89, 90]
+
+//  let table = "<table border='1'><tr><th>Student Name</th><th>Score</th></tr>"
+
+//  for ( i = 0; i < students.length; i++){
+//      table += `<tr><td> ${[students[i]]} </td><td> ${[scores[i]]}</td> </tr>`
+//  }
+//  table += '</table>'
+//  document.write(table)

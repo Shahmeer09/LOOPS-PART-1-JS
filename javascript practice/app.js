@@ -3605,3 +3605,34 @@ alert(x + y)
 
 //  let flags = [true, false, true, false, true];
 
+
+
+// question no 6
+
+//  let mixedArray = [true, talha, 20, ];
+
+
+//question 7
+
+// let networks = ["Mobilink", "Telenor", "Zong", "Ufone", "Warid"];
+
+// console.log("Available mobile networks in Pakistan:");
+// for (let i = 0; i < networks.length; i++) {
+//     console.log(networks[i]);
+// }
+
+
+//question 8
+
+// let qualifications = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+
+// document.write("<h2>Available Education Qualifications in Pakistan:</h2>");
+// document.write("<ol>");
+
+// for (let i = 0; i < qualifications.length; i++) {
+//     document.write("<li>" + qualifications[i] + "</li>");
+// }
+
+// document.write("</ol>");
+
+

@@ -3636,3 +3636,37 @@ alert(x + y)
 // document.write("</ol>");
 
 
+
+
+//question 9
+
+// let topMovies2015 = [];
+
+// topMovies2015.push("Avengers: Age of Ultron");
+// topMovies2015.push("Star Wars: The Force Awakens");
+// topMovies2015.push("Jurassic World");
+// topMovies2015.push("Inside Out");
+// topMovies2015.push("Mad Max: Fury Road");
+
+// document.write("<h2>Top Movies of 2015:</h2>");
+// document.write("<ul>");
+// for (let i = 0; i < topMovies2015.length; i++) {
+//     document.write("<li>" + topMovies2015[i] + "</li>");
+// }
+// document.write("</ul>");
+
+// document.write("<p>Number of movies in the list: " + topMovies2015.length + "</p>");
+
+
+
+// question 10
+
+let favoriteCars = ["Tesla Model S", "Porsche 911", "Audi R8", "BMW M3", "Mercedes-Benz S-Class"];
+
+console.log("First index of the array: " + favoriteCars[0]);
+
+console.log("Car at first index of the array: " + favoriteCars[0]);
+
+console.log("Last index of the array: " + (favoriteCars.length - 1));
+
+console.log("Car at last index of the array: " + favoriteCars[favoriteCars.length - 1]);

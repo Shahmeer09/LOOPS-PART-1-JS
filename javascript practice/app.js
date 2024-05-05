@@ -3304,3 +3304,32 @@ alert(x + y)
 
 
 
+
+//question 9
+
+// let A = [24, 53, 78, 91, 12]
+// let largestNum = A[0]
+
+// for (let i = 1; i < A.length; i++){
+//     if (A[i] > largestNum){
+//         largestNum = A[i]
+//     }
+// }
+// console.log(`The Largest number in the Array is ${[largestNum]}`);
+
+
+//question 10
+
+// let A = [24, 53, 78, 91, 12]
+// let smallestNum = A[0]
+
+// for (let i = 1; i < A.length; i++){
+//     if (A[i] < smallestNum){
+//         smallestNum = A[i]
+//     }
+// }
+// console.log(`The smallest number in the Array is ${[smallestNum]}`);
+
+
+
+

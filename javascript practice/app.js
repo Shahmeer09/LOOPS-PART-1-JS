@@ -3369,3 +3369,78 @@ alert(x + y)
 //  }
 //  table += '</table>'
 //  document.write(table)
+
+
+
+//question 14 
+
+// Given array
+//  var scores = [12, 45, 3, 22, 34, 50];
+
+//  // Ask the user for the stop value
+//  var stopValue = parseInt(prompt("Enter the stop value:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(stopValue)) {
+//      // Iterate through the array and print numbers until the stop value is reached
+//      var output = [];
+//      for (var i = 0; i < scores.length; i++) {
+//         if (scores[i] <= stopValue) {
+//             output.push(scores[i]);
+//    } else {
+//             break;
+//         }
+//    }
+    
+//    // Print the output
+//     console.log(output);
+//  } else {
+//      // Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }
+
+
+//question 15
+
+//  // Given 2D array
+//  let A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+//   // Using nested for loops to print each element on a new line
+//  for (let i = 0; i < A.length; i++) {
+//      for (let j = 0; j < A[i].length; j++) {
+//          console.log(A[i][j]);
+//      }
+//  }
+
+
+
+//question 16
+
+// Ask the user for input
+//  let num = parseFloat(prompt("Enter a number:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(num)) {
+//    //   Repeat and print the value of num while num is positive
+//      while (num > 0) {
+//          console.log(num);
+//          num -= 0.5;
+//      }
+//  } else {
+//     //  Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }
+
+
+//question 17
+
+// Using a for loop to iterate from 0 to 20
+//  for (let i = 0; i <= 20; i++) {
+//     //  Checking if the current number is even or odd
+//      if (i % 2 === 0) {
+//          console.log(i + " is even");
+//      } else {
+//          console.log(i + " is odd");
+//      }
+//  }
+

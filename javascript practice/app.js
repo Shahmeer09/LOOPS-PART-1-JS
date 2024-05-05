@@ -3444,3 +3444,45 @@ alert(x + y)
 //      }
 //  }
 
+
+
+
+//question 18
+
+ // Initialize the product variable with 1
+//  let product = 1;
+
+//  // Iterate from 1 to 7 and multiply odd numbers to the product
+//  for (let i = 1; i <= 7; i++) {
+//      if (i % 2 !== 0) {
+//          product *= i;
+//      }
+//  }
+
+//   // Output the product of odd integers
+//  console.log("Product of odd integers from 1 to 7: " + product);
+
+
+//question 19
+
+// // Ask the user for the initial number of stars
+//  let initialStars = parseInt(prompt("Enter the initial number of stars:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(initialStars) && initialStars > 0) {
+//     //  Loop to print lines of stars with decreasing count
+//      for (let i = initialStars; i > 0; i--) {
+//         let line = '';
+//          // Append stars to the line
+//          for (let j = 0; j < i; j++) {
+//              line += '*';
+//          }
+//         // Print the line of stars
+//          console.log(line);
+//      }
+//  } else {
+//      // Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid positive number.");
+//  }
+
+

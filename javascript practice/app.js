@@ -3670,3 +3670,31 @@ console.log("Car at first index of the array: " + favoriteCars[0]);
 console.log("Last index of the array: " + (favoriteCars.length - 1));
 
 console.log("Car at last index of the array: " + favoriteCars[favoriteCars.length - 1]);
+
+
+// Another Question 
+
+ var scores = [12, 45, 3, 22, 34, 50];
+
+//  // Ask the user for the stop value
+//  var stopValue = parseInt(prompt("Enter the stop value:"));
+
+//  // Check if the input is a valid number
+//  if (!isNaN(stopValue)) {
+//      // Iterate through the array and print numbers until the stop value is reached
+//      var output = [];
+//      for (var i = 0; i < scores.length; i++) {
+//         if (scores[i] <= stopValue) {
+//             output.push(scores[i]);
+//    } else {
+//             break;
+//         }
+//    }
+
+//    // Print the output
+//     console.log(output);
+//  } else {
+//      // Display an error message if the input is not a valid number
+//      console.log("Invalid input. Please enter a valid number.");
+//  }
+

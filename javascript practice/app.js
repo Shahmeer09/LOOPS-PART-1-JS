@@ -3911,3 +3911,41 @@ init()
 // } else {
 //     alert("Enter Only Traffic Signal Color")
 // }
+
+
+
+
+
+// QUESTION NO 6 :
+
+
+// let maxAge = 20;
+// let currentAge = +prompt("Enter Your Age");
+
+// if (currentAge <= maxAge) {
+//     alert("You Are Wellcome")
+// }
+
+
+
+// QUESTION NO 7 :
+
+
+// let fuel = +prompt("Enter Your Car Fuel");
+
+// if (fuel <= 0.25) {
+//     alert("Please Refill The Fuel In Your Car")
+// } else {
+//     alert("No Need To Fuel")
+// }
+
+
+// QUESTION NO 8 :
+
+// A)
+// var a = 4;
+// if (++a === 5) {
+//     alert("given condition for variable a is true");
+// }
+
+//                    Correct

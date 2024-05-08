@@ -4320,3 +4320,37 @@ Discount Price After 10% Discount is ${price} PKR Save Rupess is ${saveRupee} .
 // `)
 
 
+
+
+
+// QUESTION NO 10 ;
+
+let item1 = prompt("Enter a First item Name You Purchased");
+let item2 = prompt("Enter a Second item Name You Purchased");
+let price1 = +prompt("Enter a Price Of First Item");
+let price2 = +prompt("Enter a Price Of Second Item");
+let quantity1 = +prompt("Enter a Quantity Of First Item");
+let quantity2 = +prompt("Enter a Quantity Of Second Item");
+let shipping = 250;
+let price;
+let saveRupee;
+let finalPrice = price1 + price2
+if (finalPrice >= 2000) {
+    price = finalPrice - (finalPrice * 0.10)
+    saveRupee = finalPrice - price
+} else {
+    price = 0
+}
+document.write(`<h1>Shopping Cart</h1> 
+<br>
+You Purchased ${item1} & ${item2} .<br>
+The Price of Item 1 is ${price1} .<br>
+The Price of Item 2 is ${price2} . <br>
+The Quantity of Item 1 is ${quantity1} .<br>
+The Quantity of Item 2 is ${quantity2} .<br>
+<br>
+Shipping Charges ${shipping} .
+<br>
+Total Cost Of Your Order Is ${finalPrice} PKR .<br>
+Discount Price After 10% Discount is ${price} PKR Save Rupess is ${saveRupee} .
+`)

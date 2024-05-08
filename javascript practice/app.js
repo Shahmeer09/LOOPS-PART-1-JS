@@ -4260,3 +4260,63 @@ Discount Price After 10% Discount is ${price} PKR Save Rupess is ${saveRupee} .
 //     alert("car is smaller than cat");  // TRUE
 // }
 
+
+
+
+// QUESTION NO 9 )
+
+
+// let physicsMarks = +prompt("Enter Your Physics Marks");
+// let chemMarks = +prompt("Enter Your Chemistry Marks");
+// let mathMarks = +prompt("Enter Your Maths Marks");
+
+
+// let total = physicsMarks + chemMarks + mathMarks
+// let marks = 300;
+// let grade;
+// let remarks;
+
+// let percentage = total / marks * 100
+
+
+// if (percentage >= 80) {
+//     grade = "A-One Grade"
+//     remarks = "Excellent"
+// } else if (percentage >= 70) {
+//     grade = "A Grade"
+//     remarks = "Good"
+// }
+// else if (percentage >= 60) {
+//     grade = "B Grade"
+//     remarks = "You Need To Improve"
+// } else {
+//     grade = "Fail"
+//     remarks = "Sory"
+// }
+
+// document.write(`
+// <table border="2px">
+// <tr>
+// <th>Marks You Obtained</th>
+// <th>Marks Obtained in Physics</th>
+// <th>Marks Obtained in Chemistry</th>
+// <th>Marks Obtained in Maths</th>
+// <th>Total Marks</th>
+// <th>Percentage</th>
+// <th>Grade</th>
+// <th>Remarks</th>
+// </tr>
+// <tr>
+// <td>${total}</td>
+// <td>${physicsMarks}</td>
+// <td>${chemMarks}</td>
+// <td>${mathMarks}</td>
+// <td>${marks}</td>
+// <td>${percentage.toFixed(2)} %</td>
+// <td>${grade}</td>
+// <td>${remarks}</td>
+// </tr>
+// </table>
+// `)
+
+

@@ -4401,3 +4401,39 @@ function clearTimer() {
     getHtmlsec.innerHTML = " : 00 ";
     getHtmlmin.innerHTML = "00 ";
 }
+
+
+
+
+
+// ARRAY :
+
+// const students = ['shahmeer','hasssan','raza'];
+// console.log(students);
+
+// let a = 12;
+// let b = 19;
+// sumoftwonumbers(a, b);
+
+// let c = 20
+// let d = 10
+// sumoftwonumbers(c, d);
+
+// let e = 10
+// let f = 5
+// sumoftwonumbers(e , f);
+
+// function sumoftwonumbers(a, b) {
+//     let sum = a + b;
+    
+//     console.log("The Result is", sum);
+//     return
+// }
+
+// let currentDate = new Date();
+// let days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+// console.log(days[currentDate,currentDate]);
+
+
+
+

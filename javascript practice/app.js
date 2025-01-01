@@ -4471,3 +4471,52 @@ function clearTimer() {
 // }
 
 // console.log(sumofTwoNum(8, 9));
+
+
+
+
+
+
+
+
+
+// // Q.	Write a function that displays current date & time in your browser.
+
+// // let date = document.getElementById("date");
+// // let currentDate = new Date();
+
+// // date.innerHTML = currentDate
+
+
+
+
+// // Q.   Write a function that squares its argument.
+
+// // function square(num) {
+// //     const square = num * num
+// //     return square
+// // }
+
+// // console.log(square(20));
+
+// // function greetuser(names, age, salary) {
+// //     console.log("my name is " + names + " and my age is " + age + " and my salary is " + salary);
+// // }
+
+
+// // greetuser(" shahmeer ", 20, 20000);
+
+
+
+// // function sumofTwoNum(num1, num2) {
+// //     const sum = num1 + num2
+// //     return sum
+// // }
+
+// // console.log(sumofTwoNum(8, 9));
+
+
+
+
+
+

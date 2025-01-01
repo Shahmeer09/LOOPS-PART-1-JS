@@ -4618,3 +4618,38 @@ function clearTimer() {
 // console.log(b === c);
 
 
+
+
+// function shrinkMessage(message) {
+//     let comp = [];  // Initialize the result array
+//     let n = message.length;
+
+//     // Iterate through the message with a for loop
+//     for (let i = 0; i < n;) {
+//         let char = message[i];  // Current character
+//         let count = 1;  // Start counting the occurrences of this character
+
+//         // Count consecutive occurrences of the same character, up to a maximum of 9
+//         for (; i + 1 < n && message[i + 1] === char && count < 9; i++) {
+//             count++;
+//         }
+
+//         // Append the count and the character to the result array
+//         comp.push(count + char);
+
+//         // Move to the next character
+//         i++;
+//     }
+
+//     // Join the array into a string and return it
+//     return comp.join('');
+// }
+
+// let message1 = "aeiou";
+// console.log(shrinkMessage(message1));  // Output: "1a1e1i1o1u"
+// let message2 = "bbbbbbbbbbaabbc";
+// console.log(shrinkMessage(message2));  // Output: "9b2a2b1c"
+
+
+
+

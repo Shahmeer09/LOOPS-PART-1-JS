@@ -4653,3 +4653,63 @@ function clearTimer() {
 
 
 
+// Reverse String;
+
+
+// let string = prompt("Enter a Value you want to Reverse :");
+
+// const reverseFunc = () => {
+//     let reverseString = string.split("").reverse().join("");
+//     return reverseString;
+// }
+
+// console.log(reverseFunc());
+
+
+// Check Palindrome 
+
+// let name = prompt("Enter a Word i Tell you is it palindrome or not :");
+
+// const palindrome = () => {
+//     let palindromeName = name.split("").reverse().join("");
+//     if (name === palindromeName) {
+//         console.log("The Word", name, "is Palindrome");
+//     }
+//     else {
+//         console.log("The Word", name, "is not Palindrome");
+//     }
+// }
+
+
+// palindrome();
+
+
+
+// Largest Number in an array 
+
+
+// const arr = [30, 304, 293, 394, 930, 920, 234];
+
+// const largestNum = () => {
+//     return Math.max(...arr);
+// }
+
+// console.log(largestNum());
+
+
+// In loop Method
+
+const arr = [30, 304, 293, 394, 930, 920, 234];
+
+const largest = () => {
+    let largeNum = arr[0];
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > largeNum) {
+            largeNum = arr[i];
+        }
+    }
+    return largeNum;
+}
+
+console.log(largest());
+

@@ -4519,4 +4519,52 @@ function clearTimer() {
 
 
 
+// // let a = prompt("please enter a factorial number  ");
+
+// // function factorial(number) {
+// //     if (number < 0) {
+// //         return "is less than 0 please enter the number who is greater than 0"
+// //     }
+// //     else {
+// //         let result = 1;
+// //         for (let i = 2; i <= number; i++) {
+// //             result *= i;
+// //         }
+// //         return result;
+// //     }
+// // }
+
+// // let inputNumber = a;
+// // let result = factorial(a);
+
+// // console.log(`The factorial of ${a} is ${result}`);
+
+
+
+// let str = prompt('enter any string');
+
+// function palindrome(str) {
+//     let palindrome = str.split('').reverse().join('');
+//     if (palindrome === str) {
+//         console.log('this is palindrome');
+//     } else {
+//         console.log('this is not palindrome');
+//     }
+
+// }
+// palindrome(str);
+
+
+
+// // let reverse = prompt("anything");
+
+// // function reverseText(reverse) {
+// //     let text = reverse.split('').reverse().join('');
+// //     return text
+// // }
+
+// // console.log(reverseText(reverse));
+
+
+
 

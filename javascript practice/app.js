@@ -4568,3 +4568,53 @@ function clearTimer() {
 
 
 
+
+
+
+// function some() {
+//     salary = 9000;
+//     console.log(salary);
+// }
+
+// some();
+
+
+
+// function test() {
+//     console.log("first", test.abc);
+// }
+// test();
+// test.abc = 200;
+// test.abc = 400;
+// test()
+
+
+
+// console.log({} == {});
+// console.log({} === {});
+
+
+
+// let a = {
+//     name: "shahmeer"
+// }
+// let b = {
+//     ...a
+// }
+
+// b.name = "shah"
+
+// console.log(a.name);
+
+
+
+// let a = 10;
+
+// let b = new Number(10);
+
+// let c = 10;
+
+// console.log(a === b);
+// console.log(b === c);
+
+

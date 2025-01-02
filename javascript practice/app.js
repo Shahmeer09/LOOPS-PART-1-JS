@@ -4872,3 +4872,28 @@ console.log(largest());
 
 // console.log(updatedNum);
 
+
+
+
+
+// 15. Write a program to display the value of x in your browser if a=”3”
+// and b=”3”?
+
+// let a = "3"
+// let b = "3"
+
+// let x = a + b;
+
+// console.log(x);
+
+
+// 16. Write a program to display the value of y in your browser if a=”3”
+// and b=”3”?
+
+
+// let a = "3"
+// let b = "3"
+
+// let x = a - b;
+
+// console.log(x);

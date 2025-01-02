@@ -4782,3 +4782,24 @@ console.log(largest());
 // alert(`Wellcome ${firstName.concat(" ", lastName)}`)
 
 
+
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the word
+// “Hyderabad” and display the result in your browser.
+
+
+// let city = "Hyderabad";
+// let updatedCity = city.replace("Hyder", "Islam");
+
+// console.log(updatedCity);
+
+
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser. var message = “Ali and Sami are best friends. They play cricket and football together.”;
+
+
+// let message = "Ali and Sami are best friends. They play cricket and football together.";
+// let updatedMsg = message.replaceAll("and", "&");
+
+// console.log(updatedMsg);
+

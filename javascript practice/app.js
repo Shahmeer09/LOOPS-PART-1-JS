@@ -4836,3 +4836,39 @@ console.log(largest());
 
 // console.log(capital);
 
+
+
+
+
+// 12. Write a program that takes user input. Convert and show the
+// input in small letters.
+
+
+// let userInput = prompt("Enter Something ");
+// let lowerCase = userInput.toLowerCase();
+
+// console.log(lowerCase);
+
+
+
+// 13. Write a program that takes user input. Convert and show the
+// input in title case.
+
+
+// let userInput = prompt("Enter Something");
+// let updatedValue = userInput.toLowerCase().split(" ").map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(" ");;
+
+// console.log(updatedValue);
+
+
+
+
+// 14. Write a program that converts the variable num to string.
+//  var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser.
+
+// let num = 35.36;
+// let updatedNum = num.toString().replace(".", "");
+
+// console.log(updatedNum);
+

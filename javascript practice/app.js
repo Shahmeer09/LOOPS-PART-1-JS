@@ -4713,3 +4713,42 @@ const largest = () => {
 
 console.log(largest());
 
+
+
+
+// 	STRINGS METHODS
+
+
+//   1. Write a program that takes two user inputs for first and last
+//  name using prompt and merge them in a new variable titled
+//  fullName. Greet the user using his full name.
+
+
+// let firstName = prompt("Enter Your First Name ");
+// let lastName = prompt("Enter Your last Name ");
+
+// alert(`Wellcome ${firstName} ${lastName}`);
+
+
+
+
+// 2. Write a program to take a user input about his favorite mobile
+// phone model. Find and display the length of user input in your
+// browser.
+
+
+// let favMobile = prompt("Enter Your Favourite Mobile ? ");
+
+// alert(`My Favourite Mobile is ${favMobile} and its lenght of String is ${favMobile.length}`)
+
+
+
+// 3. Write a program to find the index of letter “n” in the word
+// “Pakistani” and display the result in your browser.
+
+
+// let country = "Pakistan";
+
+// alert(`The Index of Letter n in Pakistan is ${country.indexOf("n")}`)
+
+

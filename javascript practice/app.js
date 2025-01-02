@@ -4752,3 +4752,33 @@ console.log(largest());
 // alert(`The Index of Letter n in Pakistan is ${country.indexOf("n")}`)
 
 
+
+// 4. Write a program to find the last index of letter “l” in the word
+// “Hello World” and display the result in your browser.
+
+
+// let variable = "Hello World";
+
+// alert(`String ${variable} \n last index of " l " is ${variable.lastIndexOf("l")} `)
+
+
+
+// 5. Write a program to find the character at 3rd index in the word
+// “Pakistani” and display the result in your browser.
+
+
+// let country = "Pakistani";
+
+// alert(`String ${country} \n the character of index 3 is ${country.charAt(3)}`);
+
+
+
+
+// 6. Repeat Q1 using string concat() method.
+
+// let firstName = prompt("Enter Your First Name ");
+// let lastName = prompt("Enter Your Last Name ");
+
+// alert(`Wellcome ${firstName.concat(" ", lastName)}`)
+
+

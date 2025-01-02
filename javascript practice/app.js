@@ -4803,3 +4803,36 @@ console.log(largest());
 
 // console.log(updatedMsg);
 
+
+
+
+
+// 9. Write a program that converts a string “472” to a number 472.
+// Display the values & types in your browser.
+
+// let string = "472";
+// let updatedString = Number(string);
+
+// console.log(`Value = ${string} \nType = ${typeof string} \nValue = ${updatedString} \nType = ${typeof updatedString}`);
+
+
+// 10. Write a program that take a URL as user input in the
+// following format: (www.facebook.com / www.yahoo.com ).
+// Extract the domain name & show in your browser.
+
+
+// let url = prompt("Enter a URL");
+// let domain = url.startsWith("www.") ? url.substring(4) : url;
+
+// console.log(`URL = ${url} \nDomain = ${domain}`);
+
+
+
+// 11. Write a program that takes user input. Convert and show the
+// input in capital letters.
+
+// let userInput = prompt("Enter Something");
+// let capital = userInput.toUpperCase();
+
+// console.log(capital);
+

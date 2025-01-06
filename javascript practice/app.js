@@ -4897,3 +4897,49 @@ console.log(largest());
 // let x = a - b;
 
 // console.log(x);
+
+
+
+
+
+// 17. Write a program to take user input and store username in a
+// variable. If the username contains any special symbol among
+// [@ . , !], prompt the user to enter a valid username. For
+// character codes of [@ . , !], refer to ASCII table at the end of
+// this document.
+// Note:
+// ASCII code of ! is 33
+// ASCII code of , is 44
+// ASCII code of . is 46
+// ASCII code of @ is 64
+
+
+// let userName = prompt("Enter Your Name");
+
+// let checkName = () => {
+//     let specialCharacter = ["!", ",", ".", "@"];
+
+//     for (let i = 0; i < specialCharacter.length; i++) {
+//         if (userName.includes(specialCharacter[i])) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+
+
+// let check = () => {
+//     if (userName === "") return;
+
+//     while (!checkName()) {
+//         alert("Invalid username! Username should not contain special characters [@, ., ,, !].")
+//         userName = prompt("Enter a Valid UserName");
+//     }
+//     alert(`Username '${userName}' is valid.`);
+// }
+
+// check();
+
+
+
+

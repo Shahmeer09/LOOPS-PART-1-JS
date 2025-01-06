@@ -4976,3 +4976,61 @@ console.log(largest());
 
 
 
+
+// 20. Write a program to take password as an input from user. The
+// password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+
+
+
+
+
+
+
+let password = prompt("Enter your password:");
+
+while (true) {
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters long.");
+        password = prompt("Please enter a valid password:");
+        continue;
+    }
+
+    let hasLetter = false;
+    let hasNumber = false;
+
+    for (let i = 0; i < password.length; i++) {
+        if (/[a-zA-Z]/.test(password[i])) {
+            hasLetter = true;
+        } else if (/[0-9]/.test(password[i])) {
+            hasNumber = true;
+        }
+    }
+
+    if (!hasLetter || !hasNumber) {
+        alert("Password must contain both alphabets and numbers.");
+        password = prompt("Please enter a valid password:");
+        continue;
+    }
+
+    if (/^[0-9]/.test(password)) {
+        alert("Password should not start with a number.");
+        password = prompt("Please enter a valid password:");
+        continue;
+    }
+
+    alert("Password is valid.");
+    break;
+}
+
+
+
+
+

@@ -4942,4 +4942,37 @@ console.log(largest());
 
 
 
+// 18. You have an array
+//  A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an array.
+// After searching, prompt the user whether the given item is
+// found in the list or not.
+// Note: Perform case insensitive search. Whether the user enters
+// cookie, Cookie, COOKIE or coOkIE, program should inform
+// about its availability.
+
+
+// let items = ["cake", "apple pie", "cookie", "chips", "patties"];
+// let userOrder = prompt("what do you want to eat ?").toLowerCase();
+
+// const findItem = () => {
+//     let found = false;
+//     let index = -1;
+//     for (let i = 0; i < items.length; i++) {
+//         if (items[i] === userOrder) {
+//             found = true;
+//             index = i
+//             break;
+//         }
+//     }
+//     if (found) {
+//         alert(`${userOrder} is available at index ${index} in our bakery.`);
+//     } else {
+//         alert(`${userOrder} is not available in our bakery.`);
+//     }
+// }
+
+// findItem();
+
+
 
